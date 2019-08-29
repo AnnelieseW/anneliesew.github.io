@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 h1 {
-    font-size: 60px;
+    font-size: 75px;
     font-family: "Roboto Mono", monospace;
 }
 
@@ -50,7 +50,7 @@ header {
     top: 0;
     right: 0;
     height: 50px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 header * {
@@ -171,7 +171,7 @@ section .landing {
     object-fit:cover;
     background-color: #1BBCB2;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 2em;
 }
 
 
