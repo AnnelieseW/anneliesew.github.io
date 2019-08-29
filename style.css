@@ -167,9 +167,13 @@ section .landing {
 }
 #me {
     height: 250px;
-    width: auto;
+    width: 250px;
     object-fit:cover;
+    background-color: #1BBCB2;
+    border-radius: 50%;
+    margin-right: 10px;
 }
+
 
 #about p {
     text-align: center;
