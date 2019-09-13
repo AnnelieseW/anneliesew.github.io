@@ -54,8 +54,11 @@ section .landing {
     transition: 0.3s;
 }
 
-a#resume  p {
+a#resume  {
     width: auto;
+    font-size: 30px;
+    color: white;
+    opacity: 1;
 }
 
 .landing .button:hover {
