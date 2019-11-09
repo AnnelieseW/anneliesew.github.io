@@ -1,0 +1,11 @@
+project {
+    text-align: center;
+}
+Button {
+    width: 90vw;
+    height: auto;
+}
+
+img{
+    width: 100%;
+}

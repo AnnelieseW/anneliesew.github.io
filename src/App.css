@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  height: 100%;
+}
+#root {
+  width: 100vw;
+}
+
+#container-website {
+  padding: 10px;
+}
+h2 {
+  font-family: 'Multi', sans-serif;
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 18px;
+}
+/* navigation */
+.nav {
+  z-index: 300;
+  margin: 0;
+  position: fixed;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-toggler {
+  border: none;
+}
+.nav-link{
+}
+.nav-time {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*landing*/
+
+
+/*projects*/
+
+/*about/contact */
+@media only screen and (min-width: 1301px){
+  h1{
+    font-size: 144px;
+    font-family: 'Muli', sans-serif;
+  }
+
+}
+
+@media (min-width: 769px) {
+  #root {
+    padding-left: 3em;
+  }
+  .button {
+    font-size: 25px;
+  }
+
+}
+@media (max-width: 768px) {
+  .toolbar-nav-items {
+    display: none;
+  }
+
+}
