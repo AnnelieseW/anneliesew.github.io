@@ -1,18 +1,23 @@
 import React from 'react';
 import ProjectComponent from "./Components/ProjectComponent";
-import airplane from './Assets/PaperAirplane.svg';
+import PomodoroPhoto from './Assets/pomodoro-cover.jpg';
 import PomodoroProject from "./Components/Pomodoro";
+import "./Projects.css"
 
 function Projects(props) {
-    return (
-        <div id="projects">
+    return(
+        <div id="project-component">
             <h2>projects</h2>
-            <ProjectComponent
-                link="/pomodoro"
-                component={PomodoroProject}
-            image ={airplane}
-            title="Pomodoro"
-            category="React.js| UX/UI"/>
+            <div className="projects">
+        <div className="spacer"></div>
+                <ProjectComponent
+                    link="/pomodoro"
+                    component={PomodoroProject}
+                image ={PomodoroPhoto}
+                title="Pomodoro"
+                category="React.js| UX/UI"/>
+                    </div>
+                    <div className="spacer"></div>
         </div>
     )
 }

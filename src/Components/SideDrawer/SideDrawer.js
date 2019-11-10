@@ -4,7 +4,7 @@ import './SideDrawer.css';
 const SideDrawer= props =>(
         <nav className="side-drawer">
             <ul>
-                <li><a href="/#projects">projects</a></li>
+                <li><a href="/#project-component">projects</a></li>
                 <li><a href="/">Users</a></li>
             </ul>
         </nav>

@@ -6,26 +6,32 @@
 }
 #root {
   width: 100vw;
+  overflow: none;
 }
 
 #container-website {
-  padding: 10px;
 }
 h2 {
   font-family: 'Multi', sans-serif;
   font-size: 42px;
+  color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 h3 {
   font-size: 18px;
+  color: black;
 }
 
 h4 {
   font-size: 14px;
+  color: black;
 }
 
 p {
   font-size: 18px;
+  color: black;
 }
 /* navigation */
 .nav {
@@ -64,10 +70,13 @@ p {
 
 @media (min-width: 769px) {
   #root {
-    padding-left: 3em;
   }
   .button {
     font-size: 25px;
+  }
+
+  h2 {
+    font-size: 72px;
   }
 
 }
@@ -75,5 +84,7 @@ p {
   .toolbar-nav-items {
     display: none;
   }
+
+
 
 }

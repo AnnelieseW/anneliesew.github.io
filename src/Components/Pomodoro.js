@@ -3,7 +3,7 @@ import React from 'react';
 
 const PomodoroProject = () => (
     <div>
-        <p>Hi</p>
+        <p>Hi! Sorry I'm currently under works.</p>
     </div>
     // <div className="project">
     //     HI

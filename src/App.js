@@ -20,7 +20,7 @@ class App extends Component {
                     {/*<Router>*/}
                     <div id="container-website" >
                          <Route exact path="/" component = {Main}/>
-                         <Route exact path="/pomodoro" component = {PomodoroProject}/>
+                         <Route  path="/pomodoro" component = {PomodoroProject}/>
                     </div>
                     {/*</Router>*/}
                 </div>
