@@ -1,147 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a698341-8524-42ba-bae3-fd355391929f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/precache-manifest.62d343b96a2541c0f6f833ae278d08d5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.7a685c03.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.7a685c03.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.c18e9ab4.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.c18e9ab4.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.69625be9.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.69625be9.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.67a84473.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.67a84473.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/PaperAirplane.4a8f4e56.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/Resume-Anneliese.badea214.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/landing-art.79e154f9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/02ad873ad92c8799803d4f542e29d822.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/13ab609868ec3dbb92bed1805b14070c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/18f11bc5810036e7da835723f625e577.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1ecfb8cdd26aa7e09f75cec99a138bd8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1efbc7cacc821a412bfa1b48c0fcfe7a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1fb865488a63ad7a4a87d2b58a6e799a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/26999e9b935d25bd8de62f500ce01612.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2a91ba0a74f3cd285fafb82dc00aa8c8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2b155deadb6bdbcd4a0b92e1098324dd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2bebae2b9ee6fb82e16950f9fa038645.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/313e59a317eec9a83ca53ed110ee4e1a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4109010c4f564e9ea1040a90a5043a1f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/416d8b9559ce9613860c52c4925267f4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4509d68d6e17df0a2786e8a31c0a5358.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/48643be77ed8ea40b734ce70fd15131c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4a9f1f0825f818f40fe5e31f5b68e56f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5d9823f29b5c6e34fb05aae6565fccce.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/60145f0a7958af717cb4fdc75f7d09ab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/63fbcff7ed0d15ba3d297b41a711bee5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6f5d1dbacc4aab32b3c2f5f8e420a135.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8065077c48abb3da95301c051d881331.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/81c77cb9243032e6e7dfceba74df8c0a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8fb8f7015d19c93a85b263647aad2af0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/94358729adf5f2fd112605336974906c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9b69c4a5e79e742d89403441037f7c56.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a08a97dd59d5b391da4ece42c330dc53.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a512f89847a8276c8f6c29ca3e6472b4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/adf5491c4f26282615117550eb91a102.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/af19db892414ada82fa3a5356efc419b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b009a20835252b7a637d16830b608d08.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c0f4ff3322a6c8c3017074b69c7f6731.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cd4fa89899ec6ae96270e4a8fdebb225.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d14a9d82bf9a9fd39a417dc4838ba943.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e22e9ca379f5b55cb5f74f8ef5f9dcdc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e8865d9a8ded301e18511c02d6a931ab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e8a3efa97c6ed14e811d1092ce93ab09.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f007a8ece8846b7d36612b4ea28a6a8e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f7a2d5eef4cd54afa78b4325a3c3f11d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fc793453d3f4a3de404ac38a31bf778b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ff143cb37d31a05fb3e12c41717a78be.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/0517c393a5dd91915805a6d6e39ead0ac2b2f375.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/149ff1f08f4a54fbe5e525bf2a2fbd5743618b9a.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/2b429a84d337d9e1f440a91ca49abff65ca576c2.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/41e7c00c7acb898aa16ca9664ea235fd30b822b3.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/44552618cfb4e33c030d2f3ab4bebb6388a93818.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/523004b0b4d13b1434dd326949a61ed83a3cf859.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/562a3cf4b9eb5c8b2bb2163e158bbe22f925d1a9.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/583adb3bff21a0436e3d840692ad517cf569b525.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/6b234b324c93bd371aee42e7d9854579283fc67f.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/96a28b32fce50f85baf1185c6c3ef1543107c89f.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b240492feb3d64691468a9d63789352ff0d8b9cf.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/f4a316bbada1da55085ffe6a26e2d49ec87cf2ab.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/f513761cab625b236f939cb0ed2d83418ad8e90c.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/43/5e/ff018fe869e42b4e2986ad85a12bac5009a405c9efccf31ef737985ada4bc57aa8c033ff0f82b52f15164739f108d7fbbeed986bdb52ec3e3388d89a8c2c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/61/84/b33125060593b9f56f6f29410898203b46557b33d47a7f34e136fd544a527d4d92a472f4f591182e8834bece1ea615468668d45f35bc52dd50fd671f94bf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/a0/5a/09098cd7cd78081ccfa250dadf92ef0676b56c282340a196fb907505dc05fe84c421c2fc1c5149fbee5448d113447b9bba3072ca8006df3e6db44cf191b2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/index-v5/28/2e/93e749fe1280f60a9558d758be97808dcb34767d1fb91465af57fe9b9b65" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/index-v5/77/50/ec8c3638f575e8761bd12662e37f97b77860f31bda974d500159195b4287" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/index-v5/7e/02/d5502752cebd8ee6d35d3854201c56787c4e8d82f04b0c15c34099a5e1f9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/gh-pages/.cache/github.com!AnnelieseW!anneliesew.github.io.git" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/About.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/compiler/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/compiler/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/compiler/javascript-compiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/compiler/javascript-compiler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/compiler/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/compiler/parser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/exception.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/exception.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/helpers/if.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/helpers/if.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/helpers/with.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/helpers/with.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/amd/handlebars/runtime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/exception.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/exception.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/helpers/if.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/helpers/if.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/helpers/with.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/helpers/with.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/cjs/handlebars/runtime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.amd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.amd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.amd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.amd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.runtime.amd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.runtime.amd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.runtime.amd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.runtime.amd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.runtime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.runtime.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/dist/handlebars.runtime.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/javascript-compiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/javascript-compiler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/parser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/exception.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/exception.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/helpers/if.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/helpers/if.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/helpers/with.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/helpers/with.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/runtime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/release-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/release-notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/handlebars/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/handlebars/types/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/landing-art.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/landing-art.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LandingPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LandingPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LandingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pomodoro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pomodoro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ProjectComponent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProjectComponent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ProjectComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProjectComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SideDrawer/SideDrawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SideDrawer/SideDrawer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Toolbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/toolbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/toolbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects.js" afterDir="false" />
-    </list>
+    <list default="true" id="2a698341-8524-42ba-bae3-fd355391929f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +84,7 @@
       <workItem from="1566963484492" duration="3745000" />
       <workItem from="1567002747452" duration="16724000" />
       <workItem from="1573272007796" duration="2369000" />
-      <workItem from="1573335651679" duration="22073000" />
+      <workItem from="1573335651679" duration="22294000" />
     </task>
     <servers />
   </component>
