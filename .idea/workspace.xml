@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a698341-8524-42ba-bae3-fd355391929f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build/static/media/about-cloud.168fdf33.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/8c/d1/63249349e15b7ef813f0b9d5715273a3de0694722c6445f06bc1aa7a156808efba21f13190078b22d58ba41e36fb891284353374a17f4478e9491c06e9a2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/index-v5/d0/36/493af135f8d60122996f62ff4d5385417c43ee181a00870aa86e3f5f2ade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/gh-pages/.cache/github.com!AnnelieseW!anneliesew.github.io.git" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.491b6bbe40ec271dd48b7cbf33fdcd32.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/precache-manifest.238b129104cfaadfc13b54adff80aa1f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.b957e4bf.chunk.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/js/main.f5aa55fb.chunk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.b957e4bf.chunk.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/js/main.f5aa55fb.chunk.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/about-cloud.da99a7e1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/about-cloud.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/about-cloud.svg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +100,7 @@
       <workItem from="1573272007796" duration="2369000" />
       <workItem from="1573335651679" duration="22294000" />
       <workItem from="1573420948838" duration="1422000" />
+      <workItem from="1573424144822" duration="514000" />
     </task>
     <servers />
   </component>
