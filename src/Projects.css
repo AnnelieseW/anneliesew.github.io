@@ -1,17 +1,22 @@
 #project-component {
     display: grid;
     grid-template-rows: 0.2fr 1fr;
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
     background-color: #9AFBFF;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
+.projects {
+    grid-gap: 3em;
+}
 
 @media (min-width: 769px) {
  .projects {
      display: grid;
-     grid-template-columns: 0.5fr 3fr 0.5fr;
  }
 }
 @media only screen and (min-width: 1301px){

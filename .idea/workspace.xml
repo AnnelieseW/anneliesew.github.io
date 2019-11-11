@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a698341-8524-42ba-bae3-fd355391929f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Components/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.c2678f93888454da0d698e961d9b4f4a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.c548678c.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.c548678c.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.2605c366.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.2605c366.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gh-pages/.cache/github.com!AnnelieseW!anneliesew.github.io.git" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gh-pages/.cache/github.com!AnnelieseW!anneliesew.github.io.git" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SideDrawer/DrawerToggleButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigation/SideDrawer/DrawerToggleButton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SideDrawer/DrawerToggleButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigation/SideDrawer/DrawerToggleButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SideDrawer/SideDrawer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigation/SideDrawer/SideDrawer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SideDrawer/SideDrawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigation/SideDrawer/SideDrawer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigation/Toolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/toolbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigation/toolbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +82,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/Navigation" />
       <recent name="$PROJECT_DIR$/src/Components/PomodoroProject" />
       <recent name="$PROJECT_DIR$/src/Components" />
       <recent name="$PROJECT_DIR$/src" />
