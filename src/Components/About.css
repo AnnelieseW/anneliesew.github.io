@@ -6,6 +6,9 @@
     justify-content: space-around;
 
 }
+.about-cloud {
+    position: absolute;
+}
 
 .about-heading {
     font-size: 48px;

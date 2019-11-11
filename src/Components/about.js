@@ -10,7 +10,7 @@ import Resume from "../Assets/Resume-Anneliese.pdf";
 function About(props) {
     return (
         <div className="about-contact">
-            <img src={aboutCloud}/>
+            <img className="about-cloud" src={aboutCloud}/>
             <div>
         <div id="about">
 
