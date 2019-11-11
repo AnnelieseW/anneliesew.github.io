@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectComponent from "./Components/ProjectComponent";
 import PomodoroPhoto from './Assets/pomodoro-cover.jpg';
-import PomodoroProject from "./Components/Pomodoro";
+import PomodoroProject from "./Components/PomodoroProject/Pomodoro";
 import "./Projects.css"
 
 function Projects(props) {
