@@ -18,7 +18,7 @@ class App extends Component {
                 <div style={{ height: '100%' }}>
                    <Navigation className="nav"/>
                     {/*<Router>*/}
-                    <div id="container-website" >
+
                          <Route exact path="/" component = {Main}/>
                          <Route  path="/pomodoro" component = {PomodoroProject}/>
                     </div>
