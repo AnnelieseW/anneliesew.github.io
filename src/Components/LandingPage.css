@@ -1,5 +1,12 @@
 #landing {
     position: relative;
+    display: grid;
+    z-index : -1;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 10vh;
+    align-items: center;
+    min-height: 350px;
 }
 
 .landing-cloud {
@@ -14,15 +21,7 @@ h1 {
     margin-block-start: 0px;
 }
 
-.landing{
-    display: grid;
-    z-index : -1;
-    height: 100vh;
-    width: 100vw;
-    padding-top: 10vh;
-    align-items: center;
-    min-height: 350px;
-}
+
 
 
 .container {
