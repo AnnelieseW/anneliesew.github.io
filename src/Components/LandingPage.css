@@ -1,3 +1,7 @@
+#landing {
+    position: relative;
+}
+
 .landing-cloud {
     position:absolute;
     bottom: 0;
