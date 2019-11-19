@@ -2,14 +2,14 @@ import React from "react";
 import "./LandingPage.css";
 import Resume from '../Assets/Resume-Anneliese.pdf';
 import landingcloud from '../Assets/landing-cloud.svg';
-
+import Background from '../Assets/landing-background.png';
 function Landing(props) {
     return (
-        <div id="landing">
+        <div id="landing" style={{backgroundImage: `url(${Background})`}}>
         <img className="landing-cloud" src={landingcloud}/>
         <div className="landing">
             <div id="resume">
-            <h1>Anneliese Wen</h1>
+            <h1>Anneliese Wen</h1>ç
                 <a id="resume-link" href={Resume}>
                     <div className="button">
                        resume
