@@ -2,10 +2,9 @@ import React from "react";
 import "./LandingPage.css";
 import Resume from '../Assets/Resume-Anneliese.pdf';
 import landingcloud from '../Assets/landing-cloud.svg';
-import Background from '../Assets/landing-background.png';
 function Landing(props) {
     return (
-        <div id="landing" style={{backgroundImage: `url(${Background})`}}>
+        <div id="landing">
         <img className="landing-cloud" src={landingcloud}/>
         <div className="landing">
             <div id="resume">
