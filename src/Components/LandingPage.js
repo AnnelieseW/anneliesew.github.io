@@ -8,7 +8,7 @@ function Landing(props) {
         <img className="landing-cloud" src={landingcloud}/>
         <div className="landing">
             <div id="resume">
-            <h1>Anneliese Wen</h1>ç
+            <h1>Anneliese Wen</h1>
                 <a id="resume-link" href={Resume}>
                     <div className="button">
                        resume
