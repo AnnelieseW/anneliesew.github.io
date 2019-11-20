@@ -1,3 +1,5 @@
+
+
 #landing {
     position: relative;
     display: grid;
@@ -7,6 +9,8 @@
     padding-top: 10vh;
     align-items: center;
     min-height: 350px;
+    background-size: cover;
+    background-position: top;
 }
 
 .landing-cloud {

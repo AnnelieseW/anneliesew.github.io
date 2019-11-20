@@ -2,7 +2,6 @@ import React from "react";
 import "./LandingPage.css";
 import Resume from '../Assets/Resume-Anneliese.pdf';
 import landingcloud from '../Assets/landing-cloud.svg';
-
 function Landing(props) {
     return (
         <div id="landing">
