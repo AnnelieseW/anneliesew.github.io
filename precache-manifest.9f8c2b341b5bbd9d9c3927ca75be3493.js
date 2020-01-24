@@ -1,35 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "91a10ad5c58547d9709f71c3b1633960",
+    "revision": "d36b429f2d39bc8742470dc027495368",
     "url": "/index.html"
   },
   {
-    "revision": "237f5c9a217ef2aad8f2",
-    "url": "/static/css/main.57643237.chunk.css"
+    "revision": "e2a34ae674b05fdcaea5",
+    "url": "/static/css/main.fd29a2bc.chunk.css"
   },
   {
-    "revision": "9df982d3e168c2c92733",
-    "url": "/static/js/2.cd7afcd6.chunk.js"
+    "revision": "e357f15d979398c51489",
+    "url": "/static/js/2.3be47e75.chunk.js"
   },
   {
-    "revision": "237f5c9a217ef2aad8f2",
-    "url": "/static/js/main.a0bc5b98.chunk.js"
+    "revision": "e2a34ae674b05fdcaea5",
+    "url": "/static/js/main.6fb5e7b9.chunk.js"
   },
   {
     "revision": "25293dcdd045d2663b65",
     "url": "/static/js/runtime-main.67a84473.js"
   },
   {
-    "revision": "769f0db923ed48ed757a9d7c0d9bc2ad",
-    "url": "/static/media/PomodoroCoverPhoto.769f0db9.jpg"
-  },
-  {
     "revision": "badea2142d17478433cc0723fb7b1255",
     "url": "/static/media/Resume-Anneliese.badea214.pdf"
   },
   {
-    "revision": "b838f20c3ebaa4292e4138e7c44fe598",
-    "url": "/static/media/about-cloud.b838f20c.svg"
+    "revision": "a487f4700adfcb923bfa2b639884cb9e",
+    "url": "/static/media/about-cloud.a487f470.svg"
   },
   {
     "revision": "3cc52953090d22721ee66a5224598cc8",
@@ -48,15 +44,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/icon-mail.80b9a7c2.svg"
   },
   {
-    "revision": "7892318f42c48c937ce3f5fb05d4558c",
-    "url": "/static/media/landing-art.7892318f.png"
-  },
-  {
-    "revision": "a1ba8b603412ae50593b5948f37022b8",
-    "url": "/static/media/landing-cloud.a1ba8b60.svg"
+    "revision": "5c76e98bc0a3e293f1bf2c3bd2043fed",
+    "url": "/static/media/landing_cloud _asset.5c76e98b.svg"
   },
   {
     "revision": "5ed298deada2165fde2afd6d7471920c",
     "url": "/static/media/pomodoro-cover.5ed298de.jpg"
+  },
+  {
+    "revision": "e64fa5c9a98260ed6cf9f711bfce5dc9",
+    "url": "/static/media/project cloud.e64fa5c9.svg"
   }
 ]);
