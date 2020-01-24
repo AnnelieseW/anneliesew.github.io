@@ -31,6 +31,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    transition: 1s;
 }
 .landing h1 {
     font-family: 'Muli', sans-serif;
@@ -95,20 +96,4 @@
     }
 
 }
-/*@media screen and (min-width: 1024px) {*/
-
-/*    .landing {*/
-/*        display: grid;*/
-/*        grid-template-columns: 1fr 1fr;*/
-/*        grid-template-rows: 100vh;*/
-/*    }*/
-
-/*    #landing-block {*/
-/*        grid-column-end: 2;*/
-/*        grid-column-start: 1;*/
-/*        display: grid;*/
-/*        grid-template-columns: 1fr;*/
-/*        grid-template-rows: 1fr;*/
-/*}*/
-
 
