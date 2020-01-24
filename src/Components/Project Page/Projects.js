@@ -25,9 +25,8 @@ class Projects extends Component {
                 <div className="projects">
                     <div className="container">
                         <StackGrid  monitorImagesLoaded={true} columnWidth={width <= 600 ? '100%' :
-                            width < 768 ? 600: 450 } style={{ width: width <= 600 ? '100%' :
-                                width < 768 ? 600: 450,
-                        margin: '0'}}>
+                            width < 768 ? 600: 450 } style={{width: width <= 600 ? '100%' :
+                                width < 768 ? 600: width <= 1024 ? 450: '100%'}}>
                             <ProjectComponent
                                 link="/pomodoro"
                                 component={PomodoroProject}
