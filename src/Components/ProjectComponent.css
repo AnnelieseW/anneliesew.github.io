@@ -1,6 +1,13 @@
 .project-component {
+    display: inline-block;
     padding-bottom: 5vh;
+    right: 0;
 }
+.project-wrapper {
+    display: inline-block;
+    justify-content: center;
+}
+
 .project-link .project-wrapper{
     display: inline-flex;
     align-items: flex-start;
@@ -8,17 +15,13 @@
     padding: 0;
     filter: grayscale(100%);
     z-index: 0;
-    justify-content: flex-end;
-    align-content: stretch;
+    width: 80vw;
+    max-width: 450px;
 }
 
-.project-link .project-wrapper {
-    display: grid;
-    place-self: center;
-}
 .project-image img {
     width: 80vw;
-    max-width: 285px;
+    max-width: 300px;
     border-radius: 10px;
 }
 

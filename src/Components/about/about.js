@@ -11,7 +11,7 @@ function About(props) {
     return (
         <div className="about-contact">
             <img className="about-cloud" src={aboutCloud}/>
-            <div className="container">
+            <div className="about-container">
                 <div className="content">
                 <div id="about">
                     <h2>about</h2>
