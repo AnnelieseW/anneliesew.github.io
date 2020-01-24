@@ -4,7 +4,7 @@ import Toolbar from "./Components/Navigation/Toolbar";
 import SideDrawer from "./Components/Navigation/SideDrawer/SideDrawer";
 
 import Backdrop from "./Components/Backdrop/Backdrop";
-import Landing from "./Components/LandingPage";
+import Landing from "./Components/Landing/LandingPage";
 
 class Navigation extends Component {
     state = {
