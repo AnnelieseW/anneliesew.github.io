@@ -5,7 +5,13 @@ import "./ProjectComponent.css";
 function ProjectComponent(props) {
     return (
         <div className="project-component">
+            <div className="project-wrapper">
             <Link to={props.link} className = "project-link">
+                <div className="project-wrapper">
+
+                <div className="project-image">
+                    <img src={props.image} alt="Project Image"/>
+                </div>
                 <div className="project-info">
                     <div className="project-title">
                         <h3>{props.title}</h3>
@@ -15,11 +21,9 @@ function ProjectComponent(props) {
                     </div>
                     <div className="project-description">{props.description}</div>
                 </div>
-                < div className="project-image">
-                    <img src={props.image} alt="Project Image"/>
-                    <div className="project-overlay"/>
                 </div>
             </Link>
+            </div>
         </div>
     )
 }

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import Navigation from "./Navigation";
-import Landing from "./Components/LandingPage";
-import Projects from "./Projects";
-import About from "./Components/about";
+import Landing from "./Components/Landing/LandingPage";
+import Projects from "./Components/Project Page/Projects";
+import About from "./Components/about/about";
 import './App.css';
 
 

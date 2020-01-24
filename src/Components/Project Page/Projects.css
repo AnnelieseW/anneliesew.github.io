@@ -1,0 +1,56 @@
+#project-component {
+    display: grid;
+    min-height: 100vh;
+    background-color: #29305D;
+    grid-template-rows: 100px 1fr;
+}
+
+.project-cloud {
+    position: absolute;
+    width: 100vw;
+    z-index: 0;
+}
+
+#projects-toolbar {
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#projects-toolbar h2 {
+    padding-left: 10vw;
+}
+/*#projects-toolbar div {*/
+/*    grid-column-start: 1;*/
+/*    grid-column-end: 3;*/
+/*    justify-self: end;*/
+/*    display: flex;*/
+/*    align-items: end;*/
+/*    padding-top: 2em;*/
+/*}*/
+/*#projects-toolbar div ul{*/
+/*    display: flex;*/
+/*    margin: 0;*/
+
+/*}*/
+
+#projects-toolbar div ul li{
+    margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .projects .container {
+        display: grid;
+        justify-content: center;
+        grid-column-end: 3;
+        grid-column-start: 1;
+        padding: 0;
+    }
+}
+

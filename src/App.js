@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Navigation from "./Navigation";
 import Main from "./Main";
-import PomodoroProject from "./Components/PomodoroProject/Pomodoro";
+import PomodoroProject from "./Components/Project Page/PomodoroProject/Pomodoro";
 import './App.css';
 
 

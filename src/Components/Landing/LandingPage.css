@@ -1,0 +1,114 @@
+
+
+#landing {
+    position: relative;
+    z-index : -1;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: top;
+    background: linear-gradient(180deg, #FCBCCB 0%, rgba(252, 194, 208, 0.74) 0.01%, rgba(255, 255, 255, 0) 100%), #364061;
+}
+
+.landing-cloud {
+    position:absolute;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+}
+
+.landing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100vh;
+}
+
+#landing-block {
+    align-self: center;
+    padding-top: 10vh;
+    grid-column-end: 3;
+    grid-column-start: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.landing h1 {
+    font-family: 'Muli', sans-serif;
+    font-size: 36px;
+    text-align: right;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+#landing-block #resume-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 0.3s;
+    justify-self: end;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    padding: 0;
+    width: 100px;
+    height: 27px;
+    margin-right: 0px;
+    text-align: right;
+}
+
+.button {
+    color: #FFFFFF;
+    width: 100px;
+    height: 27px;
+    background: rgba(0, 0, 0, 1);
+    border-radius: 25px;
+    border: 3px solid #333333;
+    text-align: center;
+    margin: 0;
+}
+
+.button:hover {
+    background: rgba(0, 0, 0, 0.71);
+}
+
+@media (min-width: 1024px) {
+    .landing {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100vh;
+    }
+
+    #landing-block {
+        grid-column-end: 2;
+        grid-column-start: 1;
+    }
+
+    .landing h1 {
+        font-size: 48px;
+    }
+
+    a #resume-link {
+        width: 113px;
+    }
+    .button {
+        font-size: 18px;
+        height: 30px;
+        align-items: center;
+    }
+
+}
+/*@media screen and (min-width: 1024px) {*/
+
+/*    .landing {*/
+/*        display: grid;*/
+/*        grid-template-columns: 1fr 1fr;*/
+/*        grid-template-rows: 100vh;*/
+/*    }*/
+
+/*    #landing-block {*/
+/*        grid-column-end: 2;*/
+/*        grid-column-start: 1;*/
+/*        display: grid;*/
+/*        grid-template-columns: 1fr;*/
+/*        grid-template-rows: 1fr;*/
+/*}*/
+
+

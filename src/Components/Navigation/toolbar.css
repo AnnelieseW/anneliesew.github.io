@@ -1,15 +1,15 @@
 .toolbar {
     position: fixed;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
-    height: 45px;
+    height: 100vh;
     z-index: 200;
+    right:0;
 }
 
 .toolbar-nav{
     display: flex;
     height: 100%;
     align-items: center;
+    justify-items: start;
 }
 .toolbar-logo {
     margin: 0.5rem;
@@ -20,18 +20,26 @@
     text-decoration: none;
     font-size:1.5rem;
 }
-.spacer {
-    flex: 0.9;
+#toggle-button {
+    padding : 15px;
+    align-self: start;
+}
+
+.toolbar-nav-items {
+    justify-items: start;
+    margin-right: 5em;
 }
 .toolbar-nav-items ul {
     list-style: none;
-    display: flex;
-    justify-self: flex-end;
+    padding-left: 0;
+    padding-right: 15px;
 }
 .toolbar-nav-items a{
-    color: black;
+    color: #FFFFFF;
     text-decoration: none;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 .toolbar-nav-items a:hover,
