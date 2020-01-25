@@ -23,11 +23,13 @@
 #toggle-button {
     padding : 15px;
     align-self: start;
+    transition: 2s;
 }
 
 .toolbar-nav-items {
     justify-items: start;
     margin-right: 5em;
+    transition: 500ms;
 }
 .toolbar-nav-items ul {
     list-style: none;
