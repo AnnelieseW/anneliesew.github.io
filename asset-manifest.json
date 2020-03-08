@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.4fa572d5.chunk.css",
-    "main.js": "/static/js/main.e0dbe6d6.chunk.js",
-    "main.js.map": "/static/js/main.e0dbe6d6.chunk.js.map",
+    "main.css": "/static/css/main.1ba7f685.chunk.css",
+    "main.js": "/static/js/main.a1044416.chunk.js",
+    "main.js.map": "/static/js/main.a1044416.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c2b20a0b.js",
     "runtime-main.js.map": "/static/js/runtime-main.c2b20a0b.js.map",
-    "static/js/2.77305ca1.chunk.js": "/static/js/2.77305ca1.chunk.js",
-    "static/js/2.77305ca1.chunk.js.map": "/static/js/2.77305ca1.chunk.js.map",
+    "static/js/2.bb2830df.chunk.js": "/static/js/2.bb2830df.chunk.js",
+    "static/js/2.bb2830df.chunk.js.map": "/static/js/2.bb2830df.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.69dea573e46bb071abdea443fbf142b7.js": "/precache-manifest.69dea573e46bb071abdea443fbf142b7.js",
+    "precache-manifest.5a03052a08b8ad550117838fa20b29c2.js": "/precache-manifest.5a03052a08b8ad550117838fa20b29c2.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.4fa572d5.chunk.css.map": "/static/css/main.4fa572d5.chunk.css.map",
-    "static/js/2.77305ca1.chunk.js.LICENSE": "/static/js/2.77305ca1.chunk.js.LICENSE",
+    "static/css/main.1ba7f685.chunk.css.map": "/static/css/main.1ba7f685.chunk.css.map",
+    "static/js/2.bb2830df.chunk.js.LICENSE": "/static/js/2.bb2830df.chunk.js.LICENSE",
+    "static/media/Me.png": "/static/media/Me.e3727abb.png",
     "static/media/Resume-Anneliese.pdf": "/static/media/Resume-Anneliese.badea214.pdf",
     "static/media/about-cloud.svg": "/static/media/about-cloud.a487f470.svg",
     "static/media/about-img.png": "/static/media/about-img.3cc52953.png",
-    "static/media/icon-github.svg": "/static/media/icon-github.1bb02710.svg",
-    "static/media/icon-linkedin.svg": "/static/media/icon-linkedin.5b238434.svg",
-    "static/media/icon-mail.svg": "/static/media/icon-mail.80b9a7c2.svg",
+    "static/media/icon-github.svg": "/static/media/icon-github.3830c57b.svg",
+    "static/media/icon-linkedin.svg": "/static/media/icon-linkedin.b7da1da3.svg",
+    "static/media/icon-mail.svg": "/static/media/icon-mail.52ee10c2.svg",
     "static/media/landing_cloud _asset.svg": "/static/media/landing_cloud _asset.5c76e98b.svg",
     "static/media/pomodoro-cover.jpg": "/static/media/pomodoro-cover.5ed298de.jpg",
     "static/media/project cloud.svg": "/static/media/project cloud.e64fa5c9.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c2b20a0b.js",
-    "static/js/2.77305ca1.chunk.js",
-    "static/css/main.4fa572d5.chunk.css",
-    "static/js/main.e0dbe6d6.chunk.js"
+    "static/js/2.bb2830df.chunk.js",
+    "static/css/main.1ba7f685.chunk.css",
+    "static/js/main.a1044416.chunk.js"
   ]
 }
