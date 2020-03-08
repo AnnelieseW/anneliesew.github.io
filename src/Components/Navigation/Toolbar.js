@@ -16,7 +16,7 @@ const  Toolbar  = props => (
                             <a href="/#about">about</a>
                         </li>
                         <li>
-                            <a href="/#contact">conect</a>
+                            <a href="/#contact">connect</a>
                         </li>
                         </ul>
                     </div>
