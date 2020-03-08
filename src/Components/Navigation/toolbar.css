@@ -48,3 +48,7 @@
 .toolbar-nav-items a:active {
     color: orange;
 }
+
+li {
+    padding-bottom: 2em;
+}

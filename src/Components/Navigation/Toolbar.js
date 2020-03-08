@@ -9,9 +9,9 @@ const  Toolbar  = props => (
             <div id="toggle-button"><DrawerToggleButton click={props.drawerClickHandler} /></div>
                 <div className="toolbar-nav-items">
                     <ul>
-                            <li>
-                                <a href="/#project-component">work</a>
-                            </li>
+                        <li>
+                            <a href="/#project-component">work</a>
+                        </li>
                         <li>
                             <a href="/#about">about</a>
                         </li>
