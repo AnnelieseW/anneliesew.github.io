@@ -32,10 +32,16 @@
 }
 
 #about p {
-    display: table-row;
-    padding: 0;
+    margin-bottom: 0.5em;
     text-align: right;
 }
+
+#profile-pic {
+    width: 300px;
+    text-align: center;
+    padding-bottom: 5vh;
+}
+
 #contact {
     display: inline-block;
     padding: 6vw 12vw;
@@ -58,8 +64,7 @@
     padding: 10px 0;
 }
 a:hover, .icon img:hover {
-    text-decoration: none;
-    color: #9AFBFF;
+    text-decoration: underline;
 }
 
 .icon img {
@@ -67,7 +72,13 @@ a:hover, .icon img:hover {
     width: 30px;
     text-decoration: none;
     color: white;
+    fill: white;
 }
+
+#name-h {
+    font-size: 30px;
+}
+
 @media (min-width: 768px) {
     .about-contact .about-container {
         display: inline-grid;
@@ -94,7 +105,10 @@ a:hover, .icon img:hover {
 
     #contact {
         max-width: 400px;
-        padding: 0;
+        padding: 5vh 1vw;
+    }
+    .contact {
+        padding-left: 3vw;
     }
 
 }
@@ -104,6 +118,5 @@ a:hover, .icon img:hover {
         grid-column-end: 4;
         padding-right: 20vw;
         width: 100vw;
-        align-items: center;
     }
 }
