@@ -5,6 +5,7 @@ import aboutCloud from "../../Assets/about-cloud.svg";
 import linkedinIcon from "../../Assets/icon-linkedin.svg";
 import githubIcon from "../../Assets/icon-github.svg";
 import mailIcon from "../../Assets/icon-mail.svg";
+import wave from "../../Assets/wave.svg"
 import "./About.css"
 import Resume from "../../Assets/Resume-Anneliese.pdf";
 
@@ -34,7 +35,7 @@ function About(props) {
                         <div id="contact">
                             <img id="profile-pic" src={Me}/>
                             <div className="contact">
-                            <h2 className="about-heading contact-h">let's chat</h2>
+                            <h2 className="about-heading contact-h">let's chat 🍵</h2>
                             <div className="contact-links">
                                 <a  className="icon" href="https://www.linkedin.com/in/anneliesew/"><img src={linkedinIcon}/>linkedin.com/in/anneliesew</a>
                                 <a className="icon" href="https://github.com/AnnelieseW"><img src={githubIcon}/> github.com/AnnelieseW</a>
@@ -45,6 +46,7 @@ function About(props) {
                     </div>
                 </div>
             </div>
+            <img id="contact-wave" src={wave}/>
         </div>
 
     )

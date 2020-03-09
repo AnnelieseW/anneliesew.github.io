@@ -1,7 +1,7 @@
 import React from "react";
 import "./LandingPage.css";
 import Resume from '../../Assets/Resume-Anneliese.pdf';
-import landingcloud from '../../Assets/landing_cloud _asset.svg';
+import landingcloud from '../../Assets/landing_cloud_asset.svg';
 
 
 function Landing(props) {
