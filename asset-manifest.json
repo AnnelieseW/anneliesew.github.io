@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ba7f685.chunk.css",
-    "main.js": "/static/js/main.a1044416.chunk.js",
-    "main.js.map": "/static/js/main.a1044416.chunk.js.map",
+    "main.css": "/static/css/main.24c203ba.chunk.css",
+    "main.js": "/static/js/main.3009a339.chunk.js",
+    "main.js.map": "/static/js/main.3009a339.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c2b20a0b.js",
     "runtime-main.js.map": "/static/js/runtime-main.c2b20a0b.js.map",
-    "static/js/2.bb2830df.chunk.js": "/static/js/2.bb2830df.chunk.js",
-    "static/js/2.bb2830df.chunk.js.map": "/static/js/2.bb2830df.chunk.js.map",
+    "static/js/2.85423cbb.chunk.js": "/static/js/2.85423cbb.chunk.js",
+    "static/js/2.85423cbb.chunk.js.map": "/static/js/2.85423cbb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5a03052a08b8ad550117838fa20b29c2.js": "/precache-manifest.5a03052a08b8ad550117838fa20b29c2.js",
+    "precache-manifest.c0bd06caf276c5c042ee611f826ee94e.js": "/precache-manifest.c0bd06caf276c5c042ee611f826ee94e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.1ba7f685.chunk.css.map": "/static/css/main.1ba7f685.chunk.css.map",
-    "static/js/2.bb2830df.chunk.js.LICENSE": "/static/js/2.bb2830df.chunk.js.LICENSE",
+    "static/css/main.24c203ba.chunk.css.map": "/static/css/main.24c203ba.chunk.css.map",
+    "static/js/2.85423cbb.chunk.js.LICENSE": "/static/js/2.85423cbb.chunk.js.LICENSE",
     "static/media/Me.png": "/static/media/Me.e3727abb.png",
     "static/media/Resume-Anneliese.pdf": "/static/media/Resume-Anneliese.badea214.pdf",
     "static/media/about-cloud.svg": "/static/media/about-cloud.a487f470.svg",
@@ -19,14 +19,15 @@
     "static/media/icon-github.svg": "/static/media/icon-github.3830c57b.svg",
     "static/media/icon-linkedin.svg": "/static/media/icon-linkedin.b7da1da3.svg",
     "static/media/icon-mail.svg": "/static/media/icon-mail.52ee10c2.svg",
-    "static/media/landing_cloud _asset.svg": "/static/media/landing_cloud _asset.5c76e98b.svg",
+    "static/media/landing_cloud_asset.svg": "/static/media/landing_cloud_asset.57c4d3a8.svg",
     "static/media/pomodoro-cover.jpg": "/static/media/pomodoro-cover.5ed298de.jpg",
-    "static/media/project cloud.svg": "/static/media/project cloud.e64fa5c9.svg"
+    "static/media/project cloud.svg": "/static/media/project cloud.e64fa5c9.svg",
+    "static/media/wave.svg": "/static/media/wave.33632f75.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c2b20a0b.js",
-    "static/js/2.bb2830df.chunk.js",
-    "static/css/main.1ba7f685.chunk.css",
-    "static/js/main.a1044416.chunk.js"
+    "static/js/2.85423cbb.chunk.js",
+    "static/css/main.24c203ba.chunk.css",
+    "static/js/main.3009a339.chunk.js"
   ]
 }
