@@ -4,8 +4,9 @@
     padding-top: 10vh;
     display: grid;
     min-height: 100vh;
-    background-color: #29305D;
+    background: white;
     grid-template-rows: 100px 1fr;
+    z-index: 2;
 }
 
 .project-cloud {

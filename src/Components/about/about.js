@@ -11,12 +11,11 @@ import Resume from "../../Assets/Resume-Anneliese.pdf";
 
 function About(props) {
     return (
-        <div className="about-contact">
-            <img className="about-cloud" src={aboutCloud}/>
+        <div className="about-contact sticky">
             <div className="about-container">
                 <div className="content">
                     <div id="about">
-                        <h2>Hi! 👋 </h2>
+                        <h2>hi! 👋 </h2>
                         <h2 id="name-h">I'm Anneliese</h2>
                         <p>
                             I'm a student in the School of Planning at the University of Waterloo. I am currently pursuing Honours Planning, specializing in land development, and a Joint Honours in Mathematics with a Computing Minor.
@@ -46,7 +45,6 @@ function About(props) {
                     </div>
                 </div>
             </div>
-            <img id="contact-wave" src={wave}/>
         </div>
 
     )

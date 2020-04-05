@@ -12,15 +12,10 @@ class Projects extends Component {
     render() {
         const {size: {width}} = this.props;
         return (
-            <div id="project-component">
-                <img className="project-cloud" src={cloud}/>
+            <div id="project-component" className="sticky">
                 <div id="projects-toolbar">
                     <div>
                         <h2>works.</h2>
-                        {/*<ul>*/}
-                        {/*    <li>dev</li>*/}
-                        {/*    <li>all</li>*/}
-                        {/*</ul>*/}
                     </div>
                 </div>
                 <div className="projects">
