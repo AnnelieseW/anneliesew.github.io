@@ -1,8 +1,5 @@
 import React, {Component} from 'react';
-import cloud from "../../Assets/project cloud.svg"
 import ProjectComponent from "./ProjectComponent";
-import PomodoroPhoto from '../../Assets/pomodoro-cover.jpg';
-import PomodoroProject from "./PomodoroProject/Pomodoro";
 import "./Projects.css"
 import sizeMe from 'react-sizeme'
 import StackGrid from "react-stack-grid"
