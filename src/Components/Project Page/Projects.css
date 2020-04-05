@@ -6,17 +6,13 @@
     min-height: 100vh;
     background: white;
     grid-template-rows: 100px 1fr;
-    z-index: 2;
+    z-index: 1;
 }
 
-.project-cloud {
-    position: absolute;
-    width: 100vw;
-    z-index: 0;
-}
 
 #projects-toolbar {
-    z-index: 1;
+    z-index: 3;
+    background: #FFFFFF;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -42,7 +38,7 @@
     display: inline-block;
     text-align: center;
 }
-
+.
 .container span {
     width:500px;
 

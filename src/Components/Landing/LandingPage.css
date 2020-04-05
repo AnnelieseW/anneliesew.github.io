@@ -6,11 +6,7 @@
     background: linear-gradient(180deg, #ECFAFE 0%, #F4F0F3 68.23%, #FFE3E3 100%);
     z-index: 1;
 }
-.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
+
 .landing-cloud {
     position:absolute;
     width: 100vw;

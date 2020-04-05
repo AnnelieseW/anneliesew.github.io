@@ -12,8 +12,8 @@ class Projects extends Component {
     render() {
         const {size: {width}} = this.props;
         return (
-            <div id="project-component" className="sticky">
-                <div id="projects-toolbar">
+            <div id="project-component" >
+                <div id="projects-toolbar" className="sticky">
                     <div>
                         <h2>works.</h2>
                     </div>
