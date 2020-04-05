@@ -1,8 +1,5 @@
 import React, {Component} from 'react';
-import cloud from "../../Assets/project cloud.svg"
 import ProjectComponent from "./ProjectComponent";
-import PomodoroPhoto from '../../Assets/pomodoro-cover.jpg';
-import PomodoroProject from "./PomodoroProject/Pomodoro";
 import "./Projects.css"
 import sizeMe from 'react-sizeme'
 import StackGrid from "react-stack-grid"
@@ -12,8 +9,8 @@ class Projects extends Component {
     render() {
         const {size: {width}} = this.props;
         return (
-            <div id="project-component" className="sticky">
-                <div id="projects-toolbar">
+            <div id="project-component" >
+                <div id="projects-toolbar" className="sticky">
                     <div>
                         <h2>works.</h2>
                     </div>

@@ -58,14 +58,16 @@ p {
   justify-content: flex-end;
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
 
 /* IMPORTANT DO NOT DELETE */
 @media (max-width: 767px) {
   .toolbar-nav-items {
     display: none;
-  }
-  .parallax {
-    background-attachment: scroll;
   }
 
 }
