@@ -6,12 +6,8 @@
 
 #root {
   width: 100vw;
-  overflow: hidden;
 }
 
-#main{
-  background: linear-gradient(180deg, #EBFBFF 0%, #FFE2E2 51.04%, #EBFBFF 98.96%);
-}
 
 h1 {
   font-family: 'Slabo 27px', sans-serif;
@@ -62,39 +58,22 @@ p {
   justify-content: flex-end;
 }
 
-/*landing*/
-
-
-/*projects*/
-
-/*about/contact */
-/*@media only screen and (min-width: 1301px){*/
-/*  h1{*/
-/*    font-size: 144px;*/
-/*    font-family: 'Muli', sans-serif;*/
-/*  }*/
-
-/*}*/
-
-/*@media (min-width: 769px) {*/
-/*  #root {*/
-/*  }*/
-/*  .button {*/
-/*    font-size: 25px;*/
-/*  }*/
-
-/*  h2 {*/
-/*    font-size: 72px;*/
-/*  }*/
-
-/*}*/
 
 /* IMPORTANT DO NOT DELETE */
 @media (max-width: 767px) {
   .toolbar-nav-items {
     display: none;
   }
+  .parallax {
+    background-attachment: scroll;
+  }
 
+}
 
+@media (max-width: 413px) {
+  /* to all for sticky */
+  #root {
+    overflow: hidden;
+  }
 
 }

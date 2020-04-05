@@ -6,6 +6,7 @@
     min-height: 100vh;
     background: white;
     grid-template-rows: 100px 1fr;
+    z-index: 2;
 }
 
 .project-cloud {

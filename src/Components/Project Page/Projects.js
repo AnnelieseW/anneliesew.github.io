@@ -12,7 +12,7 @@ class Projects extends Component {
     render() {
         const {size: {width}} = this.props;
         return (
-            <div id="project-component">
+            <div id="project-component" className="sticky">
                 <div id="projects-toolbar">
                     <div>
                         <h2>works.</h2>
