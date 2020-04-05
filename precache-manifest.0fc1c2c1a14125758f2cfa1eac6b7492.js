@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7cf49c57fdd2ab996224d0fe86ca7d0",
+    "revision": "5e95cddd89c2320c84eb824262a08371",
     "url": "/index.html"
   },
   {
-    "revision": "ead4c1add787946b98b4",
-    "url": "/static/css/main.8bb4bebf.chunk.css"
+    "revision": "8b0e5ee34f7fad698fc2",
+    "url": "/static/css/main.38547a73.chunk.css"
   },
   {
-    "revision": "0a32bc150dddf87e3a45",
-    "url": "/static/js/2.081ec03d.chunk.js"
+    "revision": "bbb3e7b780f11b6787aa",
+    "url": "/static/js/2.00cf5cc9.chunk.js"
   },
   {
     "revision": "fc4b21af47e5f433f1b9e07798ad7518",
-    "url": "/static/js/2.081ec03d.chunk.js.LICENSE"
+    "url": "/static/js/2.00cf5cc9.chunk.js.LICENSE"
   },
   {
-    "revision": "ead4c1add787946b98b4",
-    "url": "/static/js/main.95054880.chunk.js"
+    "revision": "8b0e5ee34f7fad698fc2",
+    "url": "/static/js/main.78918dc9.chunk.js"
   },
   {
     "revision": "0d46f7656c748826843c",
@@ -54,10 +54,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5ed298deada2165fde2afd6d7471920c",
     "url": "/static/media/pomodoro-cover.5ed298de.jpg"
-  },
-  {
-    "revision": "e64fa5c9a98260ed6cf9f711bfce5dc9",
-    "url": "/static/media/project cloud.e64fa5c9.svg"
   },
   {
     "revision": "33632f75efaf43970ebf6b5ea7a371f4",
