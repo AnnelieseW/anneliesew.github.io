@@ -1,33 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.24c203ba.chunk.css",
-    "main.js": "/static/js/main.dfd8752f.chunk.js",
-    "main.js.map": "/static/js/main.dfd8752f.chunk.js.map",
+    "main.css": "/static/css/main.8bb4bebf.chunk.css",
+    "main.js": "/static/js/main.95054880.chunk.js",
+    "main.js.map": "/static/js/main.95054880.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c2b20a0b.js",
     "runtime-main.js.map": "/static/js/runtime-main.c2b20a0b.js.map",
-    "static/js/2.8e7af734.chunk.js": "/static/js/2.8e7af734.chunk.js",
-    "static/js/2.8e7af734.chunk.js.map": "/static/js/2.8e7af734.chunk.js.map",
+    "static/js/2.081ec03d.chunk.js": "/static/js/2.081ec03d.chunk.js",
+    "static/js/2.081ec03d.chunk.js.map": "/static/js/2.081ec03d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4cc67a67673596b7d834aeed949cdf28.js": "/precache-manifest.4cc67a67673596b7d834aeed949cdf28.js",
+    "precache-manifest.d5a4688bbf53b257dad035c6a0f0974a.js": "/precache-manifest.d5a4688bbf53b257dad035c6a0f0974a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.24c203ba.chunk.css.map": "/static/css/main.24c203ba.chunk.css.map",
-    "static/js/2.8e7af734.chunk.js.LICENSE": "/static/js/2.8e7af734.chunk.js.LICENSE",
+    "static/css/main.8bb4bebf.chunk.css.map": "/static/css/main.8bb4bebf.chunk.css.map",
+    "static/js/2.081ec03d.chunk.js.LICENSE": "/static/js/2.081ec03d.chunk.js.LICENSE",
     "static/media/Me.png": "/static/media/Me.e3727abb.png",
     "static/media/Resume-Anneliese.pdf": "/static/media/Resume-Anneliese.badea214.pdf",
     "static/media/about-cloud.svg": "/static/media/about-cloud.a487f470.svg",
     "static/media/about-img.png": "/static/media/about-img.3cc52953.png",
-    "static/media/icon-github.svg": "/static/media/icon-github.3830c57b.svg",
-    "static/media/icon-linkedin.svg": "/static/media/icon-linkedin.b7da1da3.svg",
-    "static/media/icon-mail.svg": "/static/media/icon-mail.52ee10c2.svg",
-    "static/media/landing_cloud_asset.svg": "/static/media/landing_cloud_asset.57c4d3a8.svg",
+    "static/media/icon-github.svg": "/static/media/icon-github.bbdb6f8e.svg",
+    "static/media/icon-linkedin.svg": "/static/media/icon-linkedin.0202a795.svg",
+    "static/media/icon-mail.svg": "/static/media/icon-mail.19e4d19f.svg",
     "static/media/pomodoro-cover.jpg": "/static/media/pomodoro-cover.5ed298de.jpg",
     "static/media/project cloud.svg": "/static/media/project cloud.e64fa5c9.svg",
     "static/media/wave.svg": "/static/media/wave.33632f75.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c2b20a0b.js",
-    "static/js/2.8e7af734.chunk.js",
-    "static/css/main.24c203ba.chunk.css",
-    "static/js/main.dfd8752f.chunk.js"
+    "static/js/2.081ec03d.chunk.js",
+    "static/css/main.8bb4bebf.chunk.css",
+    "static/js/main.95054880.chunk.js"
   ]
 }
