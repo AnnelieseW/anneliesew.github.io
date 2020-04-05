@@ -9,29 +9,36 @@
   overflow: hidden;
 }
 
-#container-website {
+#main{
+  background: linear-gradient(180deg, #EBFBFF 0%, #FFE2E2 51.04%, #EBFBFF 98.96%);
+}
+
+h1 {
+  font-family: 'Slabo 27px', sans-serif;
+  font-size: 50px;
+  color: black;
 }
 
 h2 {
-  font-family: 'Multi', sans-serif;
+  font-family: 'Slabo 27px', sans-serif;
   font-size: 36px;
-  color: white;
+  color: black;
   z-index: 10;
 }
 
 h3 {
   font-size: 18px;
-  color: white;
+  color: black;
 }
 
 h4 {
   font-size: 14px;
-  color: white;
+  color: black;
 }
 
 p {
   font-size: 16px;
-  color: white;
+  color: black;
 }
 /* navigation */
 .nav {

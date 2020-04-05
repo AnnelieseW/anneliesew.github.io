@@ -12,7 +12,6 @@ import Resume from "../../Assets/Resume-Anneliese.pdf";
 function About(props) {
     return (
         <div className="about-contact">
-            <img className="about-cloud" src={aboutCloud}/>
             <div className="about-container">
                 <div className="content">
                     <div id="about">
@@ -46,7 +45,6 @@ function About(props) {
                     </div>
                 </div>
             </div>
-            <img id="contact-wave" src={wave}/>
         </div>
 
     )

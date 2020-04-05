@@ -2,12 +2,8 @@
 
 #landing {
     position: relative;
-    z-index : -1;
     height: 100vh;
     width: 100vw;
-    background-size: cover;
-    background-position: top;
-    background: linear-gradient(180deg, #FCBCCB 0%, rgba(252, 194, 208, 0.74) 0.01%, rgba(255, 255, 255, 0) 100%), #364061;
 }
 
 .landing-cloud {
@@ -34,10 +30,7 @@
     transition: 1s;
 }
 .landing h1 {
-    font-family: 'Muli', sans-serif;
-    font-size: 36px;
     text-align: right;
-    color: #FFFFFF;
     padding-left: 10px;
 }
 
