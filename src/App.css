@@ -12,29 +12,34 @@ html {
   scroll-behavior: smooth;
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.75rem;
+  color: black;
+}
+
 h1 {
   font-family: 'Slabo 27px', sans-serif;
-  font-size: 50px;
+  font-size: 2.25rem;
   color: black;
 }
 
 h2 {
   font-family: 'Slabo 27px', sans-serif;
-  font-size: 36px;
   color: black;
   z-index: 10;
 }
 
 h3 {
-  font-size: 18px;
   color: black;
 }
 
 h4 {
-  font-size: 14px;
   color: black;
 }
 
+h5 {
+  color: black;
+}
 p {
   font-size: 16px;
   color: black;

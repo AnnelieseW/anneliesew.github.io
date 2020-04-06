@@ -31,18 +31,7 @@ function About(props) {
                         </p>
                     </div>
 
-                        <div id="contact">
                             <img id="profile-pic" src={Me}/>
-                            <div className="contact">
-                            <h2 className="about-heading contact-h">let's chat 🍵</h2>
-                            <div className="contact-links">
-                                <a  className="icon" href="https://www.linkedin.com/in/anneliesew/"><img src={linkedinIcon}/>linkedin.com/in/anneliesew</a>
-                                <a className="icon" href="https://github.com/AnnelieseW"><img src={githubIcon}/> github.com/AnnelieseW</a>
-                                <a className="icon" href="https://www.linkedin.com/in/anneliesewen/"><img src={mailIcon}/>anniefangyiwen@gmail.com</a>
-                            </div>
-                        </div>
-
-                    </div>
                 </div>
             </div>
         </div>

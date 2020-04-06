@@ -51,11 +51,6 @@
     padding-bottom: 5vh;
 }
 
-#contact {
-    display: inline-block;
-    padding: 6vw 12vw;
-    transition: 500ms;
-}
 
 .contact-links {
     display: inline-block;
@@ -111,14 +106,6 @@ a:hover, .icon img:hover {
         width: 450px;
 
        }
-
-    #contact {
-        max-width: 400px;
-        padding: 5vh 1vw;
-    }
-    .contact {
-        padding-left: 3vw;
-    }
 
 }
 
