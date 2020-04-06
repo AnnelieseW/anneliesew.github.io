@@ -1,9 +1,5 @@
 import React, {Component} from 'react';
-import Navigation from "./Navigation";
-import Landing from "./Components/Landing/LandingPage";
-import Projects from "./Components/Project Page/Projects";
-import About from "./Components/about/about";
-import './App.css';
+import DefaultLanding from "./Default/defaultLanding";
 
 
 class Main extends Component {
@@ -11,9 +7,7 @@ class Main extends Component {
     render() {
         return (
             <div id="main">
-                <Landing/>
-                <Projects/>
-                <About/>
+                <DefaultLanding/>
             </div>
         )
     }

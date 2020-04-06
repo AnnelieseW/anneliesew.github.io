@@ -5,8 +5,9 @@ import {
     NavLink,
     HashRouter, BrowserRouter as Router
 } from "react-router-dom";
-import Navigation from "./Navigation";
-import Main from "./Main";
+import Navigation from "./Components/Navigation/Navigation";
+import Main from"./Main";
+import MainTech from "./MainTech";
 import PomodoroProject from "./Components/Project Page/PomodoroProject/Pomodoro";
 import './App.css';
 
@@ -19,8 +20,8 @@ class App extends Component {
                    <Navigation className="nav"/>
                     {/*<Router>*/}
                     <div>
-
-                         <Route exact path="/" component = {Main}/>
+                        <Route exact path="/" component = {Main}/>
+                         <Route exact path="/Tech" component = {MainTech}/>
                          <Route  path="/pomodoro" component = {PomodoroProject}/>
                     </div>
                     {/*</Router>*/}
