@@ -1,9 +1,11 @@
-
-
 #landing {
+    display: grid;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(180deg, #ECFAFE 0%, #F4F0F3 68.23%, #FFE3E3 100%);
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-color: #DDE2CF;
     z-index: 1;
 }
 
@@ -14,80 +16,23 @@
     left: 0;
 }
 
-.landing {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100vh;
-}
 
 #landing-block {
-    align-self: center;
-    padding-top: 10vh;
-    grid-column-end: 3;
-    grid-column-start: 1;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    transition: 1s;
-}
-.landing h1 {
     text-align: right;
-    padding-left: 10px;
+    font-family: 'Slabo 13px', serif;
 }
+
 
 #landing-block #resume-link {
-    text-decoration: none;
-    color: #FFFFFF;
+    text-decoration: underline;
+    color: black;
     transition: 0.3s;
-    justify-self: end;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    padding: 0;
-    width: 100px;
-    height: 27px;
-    margin-right: 0px;
-    text-align: right;
 }
 
-.button {
-    color: #FFFFFF;
-    width: 100px;
-    height: 27px;
-    background: rgba(0, 0, 0, 1);
-    border-radius: 25px;
-    border: 3px solid #333333;
-    text-align: center;
-    margin: 0;
+#resume-link:hover {
+    font-style: italic;
 }
 
-.button:hover {
-    background: rgba(0, 0, 0, 0.71);
-}
-
-@media (min-width: 1152px) {
-    .landing {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100vh;
-    }
-
-    #landing-block {
-        grid-column-end: 2;
-        grid-column-start: 1;
-    }
-
-    .landing h1 {
-        font-size: 48px;
-    }
-
-    a #resume-link {
-        width: 113px;
-    }
-    .button {
-        font-size: 18px;
-        height: 30px;
-        align-items: center;
-    }
-
+@media (min-width: 768px) {
 }
 

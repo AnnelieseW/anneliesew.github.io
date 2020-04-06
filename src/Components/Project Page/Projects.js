@@ -10,22 +10,18 @@ class Projects extends Component {
         const {size: {width}} = this.props;
         return (
             <div id="project-component" >
-                <div id="projects-toolbar" className="sticky">
-                    <div>
-                        <h2>works.</h2>
-                    </div>
+                <div id="projects-toolbar" className="sticky subsection">
+                    <h2>works.</h2>
                 </div>
                 <div className="projects">
-                    <div className="container">
                         <StackGrid  monitorImagesLoaded={true} columnWidth={width <= 600 ? '100%' :
-                            width < 768 ? 600: 450 } style={{width: width <= 600 ? '100%' :
-                                width < 768 ? 600: width <= 1024 ? 450: '100%'}}>
+                            width < 768 ? 600: 550 } style={{width: width <= 600 ? '100%' :
+                                width < 768 ? 600 :'100%'}} className="stackgrid">
                             {projectList.map(project => {
                                 return <ProjectComponent project={project}/>
                                 })
                             }
                         </StackGrid>
-                    </div>
                 </div>
 
 

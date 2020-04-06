@@ -13,9 +13,9 @@ class MainTech extends Component {
             <div>
                 <Navigation/>
                 <div>
-                <Landing/>
-                <Projects/>
-                <About/>
+                <Landing className="content"/>
+                <Projects className="content"/>
+                <About className="content"/>
                 </div>
             </div>
         )
