@@ -10,13 +10,13 @@ const  Toolbar  = props => (
                 <div className="toolbar-nav-items">
                     <ul>
                         <li>
-                            <a href="/#project-component">work</a>
+                            <a href="/tech/#project-component">work</a>
                         </li>
                         <li>
-                            <a href="/#about">about</a>
+                            <a href="/tech/#about">about</a>
                         </li>
                         <li>
-                            <a href="/#contact">connect</a>
+                            <a href="/tech/#contact">connect</a>
                         </li>
                         </ul>
                     </div>

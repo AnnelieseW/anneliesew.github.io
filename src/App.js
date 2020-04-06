@@ -10,18 +10,19 @@ import Main from"./Main";
 import MainTech from "./MainTech";
 import PomodoroProject from "./Components/Project Page/PomodoroProject/Pomodoro";
 import './App.css';
-
+import LandingPlanning from "./Planning/PlanningHome";
 
 class App extends Component {
 
     render() {
         return (
                 <div style={{ height: '100%' }}>
-                   <Navigation className="nav"/>
+                   {/*<Navigation className="nav"/>*/}
                     {/*<Router>*/}
                     <div>
                         <Route exact path="/" component = {Main}/>
-                         <Route exact path="/Tech" component = {MainTech}/>
+                        <Route path="/planning" component={LandingPlanning}/>
+                         <Route path="/tech" component = {MainTech}/>
                          <Route  path="/pomodoro" component = {PomodoroProject}/>
                     </div>
                     {/*</Router>*/}

@@ -1,0 +1,37 @@
+#default-landing-block {
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10vw;
+    background-color: #FFEA30;
+}
+
+.default-landing-block {
+    display: flex;
+}
+
+#default-landing-block h3 {
+    max-width: 430px;
+}
+
+#default-landing-block h6 {
+    text-decoration-line: underline;
+}
+
+#default-landing-block h6:hover {
+    transition: 0.5s;
+    font-style: italic;
+}
+
+#default-landing-block .me {
+    height : 23rem;
+    margin-left : 1rem;
+    display: none;
+}
+
+@media (min-width: 834px) {
+    #default-landing-block .me {
+        display: block;
+    }
+}

@@ -11,9 +11,12 @@ class MainTech extends Component {
     render() {
         return (
             <div>
+                <Navigation/>
+                <div>
                 <Landing/>
                 <Projects/>
                 <About/>
+                </div>
             </div>
         )
     }
