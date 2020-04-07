@@ -1,3 +1,7 @@
-.contact-links {
-    display: inline-grid;
+.icon {
+    margin-right : 1em;
+}
+
+.last-contact {
+    margin-right: 0;
 }

@@ -10,15 +10,19 @@
     display: flex;
 }
 
+
 #default-landing-block h3 {
+    font-family: 'Slabo 13px', serif;
     max-width: 430px;
 }
 
 #default-landing-block h6 {
+    font-family: 'Slabo 13px', serif;
     text-decoration-line: underline;
 }
 
 #default-landing-block h6:hover {
+    font-family: 'Slabo 13px', serif;
     transition: 0.5s;
     font-style: italic;
 }

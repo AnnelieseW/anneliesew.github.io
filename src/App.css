@@ -18,15 +18,16 @@ html {
 }
 
 h1 {
-  font-family: 'Slabo 27px', sans-serif;
+  font-family: 'Slabo 13px', serif;
   font-size: 2.25rem;
   color: black;
 }
 
 h2 {
-  font-family: 'Slabo 27px', sans-serif;
+  font-family: 'Slabo 13px', serif;
   color: black;
   z-index: 10;
+  font-weight: bold;
 }
 
 h3 {
@@ -72,6 +73,20 @@ p {
   top: 0;
 }
 
+.subsection {
+  display: inline-flex;
+  padding-left: 10rem;
+  z-index: 5;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.subsection h2 {
+  margin-top: 5rem;
+  display: inline-table;
+}
+
+
 /* IMPORTANT DO NOT DELETE */
 @media (max-width: 767px) {
   .toolbar-nav-items {
@@ -86,4 +101,10 @@ p {
     overflow: hidden;
   }
 
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding: 5rem;
+  }
 }

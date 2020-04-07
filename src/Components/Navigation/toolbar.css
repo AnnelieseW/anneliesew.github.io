@@ -12,7 +12,6 @@
     justify-items: start;
 }
 .toolbar-logo {
-    margin: 0.5rem;
     margin-left: 1rem;
 }
 .toolbar-logo a {
@@ -28,7 +27,6 @@
 
 .toolbar-nav-items {
     justify-items: start;
-    margin-right: 5em;
     transition: 500ms;
 }
 .toolbar-nav-items ul {

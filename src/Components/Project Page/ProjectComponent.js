@@ -6,10 +6,7 @@ class ProjectComponent extends React.Component {
     render() {
 
         return (
-            <div className="project-component">
-                <div className="project-wrapper">
                     <Link to={this.props.project.link} className="project-link">
-                        <div className="project-wrapper">
 
                             <div className="project-image">
                                 <img src={this.props.project.image} alt="Project Image"/>
@@ -23,10 +20,7 @@ class ProjectComponent extends React.Component {
                                 </div>
                                 <div className="project-description">{this.props.project.description}</div>
                             </div>
-                        </div>
                     </Link>
-                </div>
-            </div>
         )
     }
 }
