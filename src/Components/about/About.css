@@ -18,11 +18,13 @@
 
 .text-box {
     max-width: 550px;
+    padding: 60px;
 }
 
 #profile-pic {
     width: 300px;
     height: auto;
+    padding-left: 60px;
     text-align: center;
     margin-right: 5rem;
 }
