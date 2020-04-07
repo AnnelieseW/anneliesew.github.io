@@ -77,8 +77,8 @@ p {
   display: inline-flex;
   padding-left: 10rem;
   z-index: 5;
-  background-color: white;
   align-items: center;
+  margin-bottom: 5rem;
 }
 
 .subsection h2 {

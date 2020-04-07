@@ -1,12 +1,12 @@
 
 
 #project-component {
-    margin-top: 10vh;
     display: grid;
     min-height: 100vh;
+    min-width: 100vw;
     background: white;
-    grid-template-rows: 100px 1fr;
     z-index: 1;
+    align-content: center;
 }
 
 
@@ -19,4 +19,7 @@
     text-align: center;
 }
 
+#project-component .subsection {
+    background-color: white;
+}
 

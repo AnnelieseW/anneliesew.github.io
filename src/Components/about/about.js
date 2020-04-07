@@ -11,10 +11,13 @@ import Resume from "../../Assets/Resume-Anneliese.pdf";
 
 function About(props) {
     return (
-        <div className="about-contact sticky">
-            <div className="about-container">
-                <div className="content">
-                    <div id="about">
+                    <div id="about" className="sticky">
+                        <div className="subsection">
+                            <h2>about</h2>
+                        </div>
+                        <div className="about-container">
+                        <img id="profile-pic" src={Me}/>
+                        <div className="text-box">
                         <h2>hi! 👋 </h2>
                         <h2 id="name-h">I'm Anneliese</h2>
                         <p>
@@ -29,11 +32,8 @@ function About(props) {
                         <p>
                             I'm currently seeking Fall 2020 internship opportunities in software development, product management and planning.
                         </p>
-                    </div>
-
-                            <img id="profile-pic" src={Me}/>
-                </div>
-            </div>
+                        </div>
+                        </div>
         </div>
 
     )
