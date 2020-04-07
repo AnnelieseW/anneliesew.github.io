@@ -18,7 +18,6 @@
 .project-image img {
     width: 80vw;
     max-width: 300px;
-    border-radius: 10px;
 }
 
 .project-link .project-wrapper:hover {
