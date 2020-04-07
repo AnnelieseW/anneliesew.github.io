@@ -2,6 +2,7 @@ import React from "react";
 import "./LandingPage.css";
 import Resume from '../../Assets/Resume-Anneliese.pdf';
 import "../../App.css"
+import Contact from "../contact/Contact";
 
 
 function Landing(props) {
@@ -20,6 +21,7 @@ function Landing(props) {
                        resume
                     </div>
                 </a>
+                <Contact/>
             </div>
         </div>
         </div>

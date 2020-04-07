@@ -11,7 +11,7 @@ class Contact extends React.Component {
                 <div className="contact-links">
                     <a className="icon" href="https://www.linkedin.com/in/anneliesew/"><img src={linkedinIcon}/></a>
                     <a className="icon" href="https://github.com/AnnelieseW"><img src={githubIcon}/></a>
-                    <a className="icon" href="https://www.linkedin.com/in/anneliesewen/"><img src={mailIcon}/></a>
+                    <a className="icon last-contact" href="https://www.linkedin.com/in/anneliesewen/"><img src={mailIcon}/></a>
                 </div>
             </div>
         )
