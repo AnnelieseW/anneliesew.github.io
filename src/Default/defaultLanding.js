@@ -20,7 +20,7 @@ function DefaultLanding(props) {
                     </Link>
                     </div>
                     <div>
-                    <Link to="/tech">
+                    <Link to="/tech/">
                         <h6> click here to hear more about computing 💻</h6>
                     </Link>
                     </div>

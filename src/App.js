@@ -11,6 +11,7 @@ import MainTech from "./MainTech";
 import PomodoroProject from "./Components/Project Page/PomodoroProject/Pomodoro";
 import './App.css';
 import LandingPlanning from "./Planning/PlanningHome";
+import Projects from "./Components/Project Page/Projects";
 
 class App extends Component {
 
@@ -22,7 +23,7 @@ class App extends Component {
                     <div>
                         <Route exact path="/" component = {Main}/>
                         <Route path="/planning" component={LandingPlanning}/>
-                         <Route path="/tech" component = {MainTech}/>
+                         <Route path="/tech/" component = {MainTech}/>
                          <Route  path="/pomodoro" component = {PomodoroProject}/>
                     </div>
                     {/*</Router>*/}
