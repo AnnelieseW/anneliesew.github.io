@@ -5,7 +5,7 @@ import ProjectComponent from "./ProjectComponent";
 
 const pomodoro = {
 
-    link:"/pomodoro",
+    link:"/pomodoro-project",
     component:{PomodoroProject},
     image:PomodoroPhoto,
     title:"Pomodoro",
