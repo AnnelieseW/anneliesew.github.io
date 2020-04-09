@@ -2,6 +2,7 @@ import React from "react";
 import './toolbar.css'
 import DrawerToggleButton from "./SideDrawer/DrawerToggleButton";
 import Resume from "../../Assets/Resume-Anneliese.pdf";
+import {NavHashLink} from 'react-router-hash-link'
 
 const  Toolbar  = props => (
     <header className="toolbar">
@@ -10,13 +11,10 @@ const  Toolbar  = props => (
                 <div className="toolbar-nav-items">
                     <ul>
                         <li>
-                            <a href="/tech/#project-component">work</a>
+                            <NavHashLink to="/tech#project-component">work</NavHashLink>
                         </li>
                         <li>
-                            <a href="/tech/#about">about</a>
-                        </li>
-                        <li>
-                            <a href="/tech/#contact">connect</a>
+                            <NavHashLink to="/tech#about">about</NavHashLink>
                         </li>
                         </ul>
                     </div>

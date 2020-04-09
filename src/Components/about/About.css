@@ -18,7 +18,8 @@
 
 .text-box {
     max-width: 550px;
-    padding: 60px;
+    padding-right: 4rem;
+    padding-left: 1rem;
 }
 
 #profile-pic {

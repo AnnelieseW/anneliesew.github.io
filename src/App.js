@@ -21,10 +21,12 @@ class App extends Component {
                    {/*<Navigation className="nav"/>*/}
                     {/*<Router>*/}
                     <div>
-                        <Route exact path={process.env.PUBLIC_URL + "/"} component = {Main}/>
-                        <Route path={process.env.PUBLIC_URL + "/planning"} component={LandingPlanning}/>
-                         <Route path={process.env.PUBLIC_URL + "/tech/"} component = {MainTech}/>
-                         <Route  path={process.env.PUBLIC_URL + "/pomodoro-project"} component = {PomodoroProject}/>
+                        <HashRouter>
+                            <Route exact path={process.env.PUBLIC_URL + "/"} component = {Main}/>
+                            <Route path={process.env.PUBLIC_URL + "/planning"} component={LandingPlanning}/>
+                             <Route path={process.env.PUBLIC_URL + "/tech/"} component = {MainTech}/>
+                             <Route  path={process.env.PUBLIC_URL + "/pomodoro-project"} component = {PomodoroProject}/>
+                        </HashRouter>
                     </div>
                     {/*</Router>*/}
                 </div>
