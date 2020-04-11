@@ -1,6 +1,5 @@
 #default-landing-block {
     display: grid;
-    height: 100vh;
     justify-content: center;
     align-items: center;
     padding: 10vw;
@@ -8,18 +7,24 @@
 
 .default-landing-block {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-#default-landing-block h3 {
+#default-landing-block h1 {
     font-family: 'Slabo 13px', serif;
     max-width: 430px;
 }
 
-#default-landing-block h6 {
+#default-landing-block h3 {
     font-family: 'Slabo 13px', serif;
-    text-decoration-line: underline;
 }
+
+#default-landing-block h5 {
+    font-family: 'Asap', sans-serif;
+}
+
 
 #default-landing-block h6:hover {
     font-family: 'Slabo 13px', serif;

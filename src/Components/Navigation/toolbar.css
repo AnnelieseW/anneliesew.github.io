@@ -19,6 +19,18 @@
     text-decoration: none;
     font-size:1.5rem;
 }
+
+#toolbar-top {
+    position: fixed;
+    display: flex;
+    align-self: start;
+    justify-content: end;
+    right: 0;
+}
+
+#toggle {
+    justify-self: end;
+}
 #toggle-button {
     padding : 15px;
     align-self: start;
