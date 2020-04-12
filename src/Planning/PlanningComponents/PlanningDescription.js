@@ -1,6 +1,6 @@
 import React from "react";
 import WhyMe from "./WhyMe";
-import ResumeLink from "../../Components/contact/ResumeLink/ResumeLink";
+import ResumeLink from "../../Components/ResumeLink/ResumeLink";
 
 class PlanningDescription extends React.Component {
     render(){

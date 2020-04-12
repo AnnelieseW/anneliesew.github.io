@@ -3,7 +3,7 @@ import ProjectComponent from "./ProjectComponent";
 import "./Projects.css"
 import sizeMe from 'react-sizeme'
 import StackGrid from "react-stack-grid"
-import { projectList} from "./ProjectList";
+import { projectList} from "../../Tech/ProjectList";
 
 class Projects extends Component {
     render() {

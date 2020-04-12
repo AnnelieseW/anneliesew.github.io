@@ -8,7 +8,7 @@ import {
 import Navigation from "./Components/Navigation/Navigation";
 import Main from"./Main";
 import MainTech from "./MainTech";
-import PomodoroProject from "./Components/Project Page/PomodoroProject/Pomodoro";
+import PomodoroProject from "./Tech/PomodoroProject/Pomodoro";
 import './App.css';
 import Projects from "./Components/Project Page/Projects";
 import ThemeContext from "./ThemeContext";

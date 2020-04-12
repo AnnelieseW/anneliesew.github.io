@@ -4,7 +4,7 @@ import linkedinIcon from "../../Assets/icon-linkedin.svg";
 import githubIcon from "../../Assets/icon-github.svg";
 import mailIcon from "../../Assets/icon-mail.svg";
 import ThemeContext from "../../ThemeContext";
-import ResumeLink from "./ResumeLink/ResumeLink";
+import ResumeLink from "../ResumeLink/ResumeLink";
 
 class Contact extends React.Component {
     render() {
