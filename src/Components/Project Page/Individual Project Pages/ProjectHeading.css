@@ -1,0 +1,23 @@
+#project-heading {
+    display: grid;
+    justify-items: center;
+    padding-top: 10vh;
+
+}
+
+span {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+.project-description {
+    max-width: 768px;
+    margin:  0 10vw;
+}
+p {
+    margin: 0.15rem 1rem;
+}
+#project-heading h1 {
+    color: black;
+}
