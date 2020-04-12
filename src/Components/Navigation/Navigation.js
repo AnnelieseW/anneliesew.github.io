@@ -5,8 +5,9 @@ import Toggle from "../Toggle/Toggle";
 import Toolbar from "./Toolbar";
 import SideDrawer from "./SideDrawer/SideDrawer";
 
-import Backdrop from "../Backdrop/Backdrop";
-import Landing from "../../Tech/Landing/LandingPage";
+import Backdrop from "./SideDrawer/Backdrop/Backdrop";
+import {techNavList, planNavList} from "./NavigationList";
+import ThemeContext from "../../ThemeContext";
 
 class Navigation extends React.Component {
     constructor(props) {
@@ -33,11 +34,11 @@ class Navigation extends React.Component {
 
         if (this.state.sideDrawerOpen) {
             backdrop = <Backdrop click={this.backdropClickHandler} />
-            sideDrawer = <SideDrawer />
+            sideDrawer = <SideDrawer navlist={this.props.theme == 'tech'? techNavList: planNavList} click={this.backdropClickHandler} />
         }
         return (
             <div style={{ height: '100%' }}>
-                <Toolbar changeTheme={this.props.changeTheme} drawerClickHandler={this.drawerToggleClickHandler} />
+                <Toolbar navlist={this.props.theme == 'tech'? techNavList: planNavList} drawerClickHandler={this.drawerToggleClickHandler} />
                 {sideDrawer}
                 {backdrop}
             </div>
