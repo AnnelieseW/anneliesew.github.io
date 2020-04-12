@@ -39,7 +39,7 @@ class Main extends Component {
             return (
                 <div id="main">
                     <ThemeContext.Provider value={this.state}>
-                    {/*<Navigation changeTheme ={this.toggleTheme}/>*/}
+                    <Navigation theme={this.state.theme}/>
                     <div id="landing" className={this.state.theme ==='tech'? 'landing-tech sticky': ''}>
                         {landing}
                         <Toggle/>

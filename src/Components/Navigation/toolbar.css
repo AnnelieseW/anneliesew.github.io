@@ -1,4 +1,5 @@
 .toolbar {
+    display: inline-block;
     position: fixed;
     height: 100vh;
     z-index: 200;

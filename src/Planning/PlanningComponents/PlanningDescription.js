@@ -5,8 +5,8 @@ import ResumeLink from "../../Components/ResumeLink/ResumeLink";
 class PlanningDescription extends React.Component {
     render(){
         return(
-                <div id="why-plan" className="planning">
-                    <div className="description">
+                <div className="planning">
+                    <div   id="why-plan" className="description">
                 <h3>Why I Study Planning</h3>
                     <p>
                         When I think about the stages of my life, I think about the different places I've lived in.
@@ -18,7 +18,7 @@ class PlanningDescription extends React.Component {
                         In particular I'm interested in mobility and the rise of smart cities.
                     </p>
                     </div>
-                    <div className="description">
+                    <div id="about-plan" className="description">
 
                     <h3>More About Me</h3>
                     <p>

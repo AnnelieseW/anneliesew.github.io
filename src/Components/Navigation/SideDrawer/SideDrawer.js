@@ -1,22 +1,15 @@
 import React from 'react';
 import './SideDrawer.css';
 import Resume from "../../../Assets/Resume-Anneliese.pdf";
+import {techNavList} from "../NavigationList";
+import NavListComponent from "../NavListComponent";
 
 const SideDrawer= props =>(
         <nav className="side-drawer">
             <ul>
-                <li>
-                    <a href={Resume}>resume</a>
-                </li>
-                <li>
-                    <a href="/#project-component">projects</a>
-                </li>
-                <li>
-                    <a href="/#about">about</a>
-                </li>
-                <li>
-                    <a href="/#contact">contact</a>
-                </li>
+                {props.navlist.map(item => {
+                    return <NavListComponent item={item} click={props.click}/>
+                })}
             </ul>
         </nav>
 );
