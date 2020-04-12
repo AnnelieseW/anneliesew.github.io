@@ -5,15 +5,14 @@ import {
     NavLink,
     HashRouter, BrowserRouter as Router
 } from "react-router-dom";
-import Navigation from "./Components/Navigation/Navigation";
+
 import Main from"./Main";
-import MainTech from "./MainTech";
-import PomodoroProject from "./Tech/PomodoroProject/Pomodoro";
+import PomodoroProject from "./Tech/TechProjectPages/PomodoroProject/Pomodoro";
 import './App.css';
 import Projects from "./Components/Project Page/Projects";
 import ThemeContext from "./ThemeContext";
 
-
+import WebsiteDescription from "./Tech/TechProjectPages/Website/WebsiteDescription";
 class App extends Component {
 
     render() {
@@ -26,6 +25,7 @@ class App extends Component {
                         <Router>
                             <Route exact path={process.env.PUBLIC_URL + "/"} component = {Main}/>
                              <Route  path={process.env.PUBLIC_URL + "/pomodoro-project"} component = {PomodoroProject}/>
+                             <Route  path={process.env.PUBLIC_URL + "/website-personal"} component = {WebsiteDescription}/>
                         </Router>
                     </div>
                     {/*</Router>*/}

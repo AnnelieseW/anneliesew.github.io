@@ -1,8 +1,8 @@
 import React from "react";
-import PomodoroProject from "./PomodoroProject/Pomodoro";
+import PomodoroProject from "./TechProjectPages/PomodoroProject/Pomodoro";
 import PomodoroPhoto from "../Assets/pomodoro-cover.jpg";
 import WebsiteCover from "../Assets/WebsiteCover.png"
-
+import WebsiteDescription from "./TechProjectPages/Website/WebsiteDescription";
 
 const pomodoro = {
 
@@ -16,8 +16,8 @@ const pomodoro = {
 
 const personalWebsite = {
 
-    link:"/pomodoro-project",
-    component:{PomodoroProject},
+    link:"/website-personal",
+    component:{WebsiteDescription},
     image:WebsiteCover,
     title:"this website",
     category:"frontend react.js",
