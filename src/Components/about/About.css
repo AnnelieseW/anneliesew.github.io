@@ -3,7 +3,7 @@
     display: grid;
     min-height: 100vh;
     min-width :100vw;
-    background-color: #DDE2CF;
+    background-color: #869494;
     position: sticky;
     z-index: 3;
     align-content: center;
@@ -30,3 +30,18 @@
     margin-right: 5rem;
 }
 
+#about a{
+    color: black;
+    text-decoration: underline;
+}
+
+#about a:hover{
+    font-style: italic;
+}
+.grid {
+    display: grid;
+}
+
+#about .grid a{
+    text-decoration: none;
+}

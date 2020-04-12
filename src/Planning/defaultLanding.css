@@ -12,21 +12,28 @@
 }
 
 
-#default-landing-block h1 {
+.planning h1 {
     font-family: 'Slabo 13px', serif;
-    max-width: 430px;
+    font-weight: 600;
+    font-size: 4rem;
+    color: black;
 }
 
-#default-landing-block h3 {
+.planning h2 {
     font-family: 'Slabo 13px', serif;
 }
 
-#default-landing-block h5 {
+.planning  h3 {
+    font-family: 'Montserrat', san-serif;
+    font-weight: 500;
+}
+
+.planning h5 {
     font-family: 'Asap', sans-serif;
 }
 
 
-#default-landing-block h6:hover {
+.planning h6:hover {
     font-family: 'Slabo 13px', serif;
     transition: 0.5s;
     font-style: italic;
@@ -36,6 +43,11 @@
     height : 23rem;
     margin-left : 1rem;
     display: none;
+}
+
+.links {
+    display: flex;
+    align-items: center;
 }
 
 @media (min-width: 834px) {

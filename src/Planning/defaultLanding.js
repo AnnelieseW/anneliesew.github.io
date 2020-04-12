@@ -5,19 +5,21 @@ import {Link} from "react-router-dom";
 import Contact from "../Components/contact/Contact";
 import Toggle from "../Components/Toggle/Toggle";
 import Me from "../Assets/Me.png"
+import ResumeLink from "../Components/contact/ResumeLink/ResumeLink";
 
 
 
 function DefaultLanding(props) {
     return (
-        <div id="default-landing-block">
+        <div id="default-landing-block" className="planning">
                 <div className="default-landing-block">
                     <div>
-                    <h1>Hi!  👋</h1>
-                    <h1>I’m Anneliese Wen</h1>
-                    <h3>I'm a 3rd year student @uWaterloo studying urban planning, math, and computing </h3>
-                    <h5> Currently looking for internship opportunities for Fall 2020 </h5>
+                    <h1>Anneliese Wen</h1>
+                    <h3>Urban Planning and Math student @uWaterloo specializing in Land Development </h3>
+                    <h5> seeking Fall 2020 internship opportunities</h5>
+                       <div className="links">
                     <Contact/>
+                       </div>
                     </div>
                     <img src={Me} className="me"/>
 

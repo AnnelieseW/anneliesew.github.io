@@ -18,16 +18,16 @@ html {
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.25rem;
-  color: black;
+  font-family: 'Lobster';
+  font-size: 3rem;
+  color: #ffd400;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   color: black;
   z-index: 10;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 h3 {
@@ -42,9 +42,19 @@ h5 {
   font-family: Montserrat,sans-serif;
   color: black;
 }
+
+h6 {
+  font-family: Montserrat,sans-serif;
+  color: black;
+  font-weight: 500;
+}
+
 p {
   font-family: 'Asap', sans-serif;
   color: black;
+}
+.br {
+  margin-bottom: 0.75rem;
 }
 /* navigation */
 .nav {
@@ -86,6 +96,7 @@ p {
   margin-top: 5rem;
   display: inline-table;
 }
+
 
 
 /* IMPORTANT DO NOT DELETE */

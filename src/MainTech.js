@@ -4,7 +4,6 @@ import Landing from "./Components/Landing/LandingPage";
 import Projects from "./Components/Project Page/Projects";
 import About from "./Components/about/about";
 import './App.css';
-import Toggle from "./Components/Toggle/Toggle";
 
 
 class MainTech extends Component {
@@ -13,7 +12,7 @@ class MainTech extends Component {
         return (
             <div>
                 <div>
-                    <Projects className="content"/>
+                    {/*<Projects className="content"/>*/}
                     <About className="content"/>
                 </div>
             </div>

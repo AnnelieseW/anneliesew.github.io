@@ -11,7 +11,7 @@ class Projects extends Component {
         return (
             <div id="project-component" >
                 <div id="projects-toolbar" className="sticky subsection">
-                    <h2>works.</h2>
+                    <h1>projects</h1>
                 </div>
                 <div className="projects">
                         <StackGrid  monitorImagesLoaded={true} columnWidth={width <= 600 ? '100%' :

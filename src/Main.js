@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
-import DefaultLanding from "./Default/defaultLanding";
+import DefaultLanding from "./Planning/defaultLanding";
 import Toggle from "./Components/Toggle/Toggle";
 import MainTech from "./MainTech";
 import Navigation from "./Components/Navigation/Navigation";
 import ThemeContext from "./ThemeContext";
 import Landing from "./Components/Landing/LandingPage";
+import MainPlanning from "./Planning/MainPlanning";
 
 
 class Main extends Component {
@@ -31,7 +32,7 @@ class Main extends Component {
             content = <MainTech/>;
             landing= <Landing/>;
         } else {
-            content = <MainTech/>;
+            content = <MainPlanning/>;
             landing = <DefaultLanding/>;
         }
 
@@ -39,11 +40,11 @@ class Main extends Component {
                 <div id="main">
                     <ThemeContext.Provider value={this.state}>
                     {/*<Navigation changeTheme ={this.toggleTheme}/>*/}
-                    <div id="landing" className={this.state.theme ==='tech'? 'landing-tech sticky': 'sticky'}>
+                    <div id="landing" className={this.state.theme ==='tech'? 'landing-tech sticky': ''}>
                         {landing}
                         <Toggle/>
                     </div>
-                    {/*{content}*/}
+                    {content}
                     </ThemeContext.Provider>
                 </div>
             )

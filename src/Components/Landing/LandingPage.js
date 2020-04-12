@@ -4,7 +4,7 @@ import Resume from '../../Assets/Resume-Anneliese.pdf';
 import "../../App.css"
 import Contact from "../contact/Contact";
 import Welcome from "./FunFont";
-import ResumeLink from "../ResumeLink/ResumeLink";
+import ResumeLink from "../contact/ResumeLink/ResumeLink";
 
 
 function Landing(props) {
@@ -13,7 +13,6 @@ function Landing(props) {
             <div id="landing-block">
             <Welcome/>
                 <div className="landing-p"><p>seeking fall 2020 internship opportunities in software development or product management</p>
-                <ResumeLink/>
                 <Contact/>
                 </div>
             </div>
