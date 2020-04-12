@@ -10,7 +10,6 @@ import Main from"./Main";
 import MainTech from "./MainTech";
 import PomodoroProject from "./Components/Project Page/PomodoroProject/Pomodoro";
 import './App.css';
-import LandingPlanning from "./Planning/PlanningHome";
 import Projects from "./Components/Project Page/Projects";
 import ThemeContext from "./ThemeContext";
 

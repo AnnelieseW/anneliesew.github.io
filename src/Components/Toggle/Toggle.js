@@ -25,7 +25,8 @@ class Toggle extends React.Component {
                 {({theme, toggleTheme}) => (
 
             <div id="toggle-theme">
-                <p>{theme === 'tech' ? 'looking for my planning work?' : 'looking for my dev work?'}</p>
+                <h6>{theme === 'tech'? "- tech portfolio -" : "- planning site -"}</h6>
+                <p>{theme === 'tech' ? 'looking for planning?' : 'looking for my dev work?'}</p>
                 <div className= 'toggle-container'>
                 <label className="switch round">
                     <input type="checkbox"

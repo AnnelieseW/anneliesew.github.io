@@ -5,7 +5,7 @@ button {
     height: 1.75rem;
     text-align: center;
     background: transparent;
-    margin-bottom: 1rem;
+    margin: 1rem 1rem;
 }
 #resume-link {
     text-decoration: none;
@@ -16,6 +16,6 @@ button {
 }
 
 button:hover {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(255, 212, 0, 0.5);
 
 }
