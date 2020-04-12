@@ -1,7 +1,7 @@
 import React from "react";
 
 const landing = {
-    text: "home",
+    text: "landing",
     href:"#landing"
 };
 const projectTech = {

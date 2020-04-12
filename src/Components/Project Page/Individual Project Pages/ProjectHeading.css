@@ -5,17 +5,17 @@
 
 }
 
-span {
+#project-heading span {
     display: flex;
     flex-wrap: wrap;
     margin: 1rem 0;
 }
 
-.project-description {
+#project-heading .project-description {
     max-width: 768px;
     margin:  0 10vw;
 }
-p {
+#project-heading p {
     margin: 0.15rem 1rem;
 }
 #project-heading h1 {

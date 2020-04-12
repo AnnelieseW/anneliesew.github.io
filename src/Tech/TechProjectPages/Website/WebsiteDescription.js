@@ -5,11 +5,8 @@ import Navigation from "../../../Components/Navigation/Navigation";
 class WebsiteDescription extends React.Component{
     render() {
         return(
-            <div>
-                <Navigation theme={'tech'}/>
             <div id={"personalWebsite"}>
             <ProjectHeading/>
-            </div>
             </div>
         )
     }
