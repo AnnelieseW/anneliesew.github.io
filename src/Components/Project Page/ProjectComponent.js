@@ -13,12 +13,12 @@ class ProjectComponent extends React.Component {
                             </div>
                             <div className="project-info">
                                 <div className="project-title">
-                                    <h3>{this.props.project.title}</h3>
+                                    <h4>{this.props.project.title}</h4>
                                 </div>
                                 <div className="project-category">
-                                    <h4>{this.props.project.category}</h4>
+                                    <h6>{this.props.project.category}</h6>
                                 </div>
-                                <div className="project-description">{this.props.project.description}</div>
+                                <div className="project-description"><p>{this.props.project.description}</p></div>
                             </div>
                     </Link>
         )

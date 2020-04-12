@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 import Contact from "../Components/contact/Contact";
 import Toggle from "../Components/Toggle/Toggle";
 import Me from "../Assets/Me.png"
-import ResumeLink from "../Components/contact/ResumeLink/ResumeLink";
+import ResumeLink from "../Components/ResumeLink/ResumeLink";
 
 
 

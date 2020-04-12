@@ -4,7 +4,7 @@ import Toggle from "./Components/Toggle/Toggle";
 import MainTech from "./MainTech";
 import Navigation from "./Components/Navigation/Navigation";
 import ThemeContext from "./ThemeContext";
-import Landing from "./Components/Landing/LandingPage";
+import Landing from "./Tech/Landing/LandingPage";
 import MainPlanning from "./Planning/MainPlanning";
 
 

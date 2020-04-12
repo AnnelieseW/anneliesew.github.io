@@ -6,7 +6,7 @@ import Toolbar from "./Toolbar";
 import SideDrawer from "./SideDrawer/SideDrawer";
 
 import Backdrop from "../Backdrop/Backdrop";
-import Landing from "../Landing/LandingPage";
+import Landing from "../../Tech/Landing/LandingPage";
 
 class Navigation extends React.Component {
     constructor(props) {
