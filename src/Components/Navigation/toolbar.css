@@ -57,6 +57,8 @@
 
 .toolbar-nav-items a:hover,
 .toolbar-nav-items a:active {
+    font-style: italic;
+    text-decoration: underline;
 }
 
 li {
