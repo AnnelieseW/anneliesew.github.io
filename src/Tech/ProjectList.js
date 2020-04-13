@@ -6,7 +6,7 @@ import WebsiteDescription from "./TechProjectPages/Website/WebsiteDescription";
 
 const pomodoro = {
 
-    link:"#/pomodoro-project",
+    link:"/pomodoro-project",
     component:{PomodoroProject},
     image:PomodoroPhoto,
     title:"pomodoro timer",
@@ -16,7 +16,7 @@ const pomodoro = {
 
 const personalWebsite = {
 
-    link:"#/website-personal",
+    link:"/website-personal",
     component:{WebsiteDescription},
     image:WebsiteCover,
     title:"this website",
