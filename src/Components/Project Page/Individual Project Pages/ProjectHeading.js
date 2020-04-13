@@ -1,5 +1,6 @@
 import React from "react";
 import './ProjectHeading.css'
+import Navigation from "../../Navigation/Navigation";
 
 class ProjectHeading extends React.Component {
     render() {

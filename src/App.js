@@ -23,9 +23,9 @@ class App extends Component {
                     {/*<Router>*/}
                     <div>
                         <Router>
-                            <Route exact path={process.env.PUBLIC_URL + "/"} component = {Main}/>
-                             <Route  path={process.env.PUBLIC_URL + "/pomodoro-project"} component = {PomodoroProject}/>
-                             <Route  path={process.env.PUBLIC_URL + "/website-personal"} component = {WebsiteDescription}/>
+                            <Route exact path={"/"} component = {Main}/>
+                             <Route  path={"/pomodoro-project"} component = {PomodoroProject}/>
+                             <Route  path={"/website-personal"} component = {WebsiteDescription}/>
                         </Router>
                     </div>
                     {/*</Router>*/}

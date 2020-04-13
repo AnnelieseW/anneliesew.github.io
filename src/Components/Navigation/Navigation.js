@@ -22,11 +22,11 @@ class Navigation extends React.Component {
         this.setState(prevState => {
             return { sideDrawerOpen: !prevState.sideDrawerOpen }
         })
-    }
+    };
 
     backdropClickHandler = () => {
         this.setState({ sideDrawerOpen: false })
-    }
+    };
 
     render() {
         let backdrop;
@@ -34,11 +34,11 @@ class Navigation extends React.Component {
 
         if (this.state.sideDrawerOpen) {
             backdrop = <Backdrop click={this.backdropClickHandler} />
-            sideDrawer = <SideDrawer navlist={this.props.theme == 'tech'? techNavList: planNavList} click={this.backdropClickHandler} />
+            sideDrawer = <SideDrawer navlist={this.props.list} />
         }
         return (
             <div style={{ height: '100%' }}>
-                <Toolbar navlist={this.props.theme == 'tech'? techNavList: planNavList} drawerClickHandler={this.drawerToggleClickHandler} />
+                <Toolbar navlist={this.props.list} drawerClickHandler={this.drawerToggleClickHandler} />
                 {sideDrawer}
                 {backdrop}
             </div>
