@@ -1,12 +1,12 @@
 
 #about {
     display: grid;
-    min-height: 100vh;
-    min-width :100vw;
     background-color: #869494;
     position: sticky;
     z-index: 3;
     align-content: center;
+    padding-bottom: 3rem;
+    min-height: 100vh;
 }
 
 .about-container {

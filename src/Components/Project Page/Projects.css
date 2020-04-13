@@ -2,8 +2,8 @@
 
 #project-component {
     display: grid;
-    min-height: 100vh;
     min-width: 100vw;
+    min-height: 100vh;
     background: white;
     z-index: 1;
     align-content: center;
