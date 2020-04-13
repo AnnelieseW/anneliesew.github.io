@@ -6,7 +6,7 @@ import Resume from "../../Assets/Resume-Anneliese.pdf";
 import Contact from "../../Components/contact/Contact";
 function About(props) {
     return (
-                    <div id="about" className="sticky">
+                    <section id="about" className="sticky">
                         <div className="subsection">
                             <h1>about</h1>
                         </div>
@@ -34,7 +34,7 @@ function About(props) {
                             </p>
                         </div>
                         </div>
-        </div>
+        </section>
 
     )
 }

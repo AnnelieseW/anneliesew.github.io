@@ -9,7 +9,7 @@ class Projects extends Component {
     render() {
         const {size: {width}} = this.props;
         return (
-            <div id="project-component" >
+            <section id="project-component" >
                 <div id="projects-toolbar" className="sticky subsection">
                     <h1>projects</h1>
                 </div>
@@ -25,7 +25,7 @@ class Projects extends Component {
                 </div>
 
 
-            </div>
+            </section>
         )
     }
 }

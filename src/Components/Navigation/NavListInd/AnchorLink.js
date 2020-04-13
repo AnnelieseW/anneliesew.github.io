@@ -1,3 +1,5 @@
+// disclaimer: note my code
+
 import React, {Component} from 'react'
 
 class AnchorLink extends Component {
