@@ -28,12 +28,23 @@
 }
 .project-description {
     display: inline-block;
-    max-width: 500px;
 
 }
 
 .project-about {
     display: inline-block;
     margin-right: 3rem;
-    max-width: 12rem;
+}
+
+@media (min-width: 925px) {
+    .project-about {
+        display: inline-block;
+        margin-right: 3rem;
+        max-width: 12rem;
+    }
+
+    .project-description {
+        max-width: 500px;
+
+    }
 }
