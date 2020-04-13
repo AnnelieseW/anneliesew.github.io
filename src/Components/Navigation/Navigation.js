@@ -34,7 +34,7 @@ class Navigation extends React.Component {
 
         if (this.state.sideDrawerOpen) {
             backdrop = <Backdrop click={this.backdropClickHandler} />
-            sideDrawer = <SideDrawer navlist={this.props.list} linking={this.props.linking} />
+            sideDrawer = <SideDrawer navlist={this.props.list} linking={this.props.linking} click={this.backdropClickHandler} />
         }
         return (
             <div style={{ height: '100%' }}>

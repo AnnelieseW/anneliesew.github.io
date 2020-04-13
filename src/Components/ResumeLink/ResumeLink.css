@@ -1,4 +1,4 @@
-button {
+#resume-link {
     border-radius: 1rem;
     border: 0.1rem solid black;
     width: 9rem;
@@ -7,7 +7,7 @@ button {
     background: transparent;
     margin: 1rem 1rem;
 }
-#resume-link {
+#resume-link a {
     text-decoration: none;
     color: black;
     transition: 0.3s;
@@ -15,7 +15,7 @@ button {
     height: 100%;
 }
 
-button:hover {
+#resume-link:hover {
     background: rgba(255, 212, 0, 0.5);
 
 }
