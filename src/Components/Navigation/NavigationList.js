@@ -2,16 +2,16 @@ import React from "react";
 
 const landing = {
     text: "landing",
-    href:"#landing"
+    href:"/#landing"
 };
 const projectTech = {
     text: "projects",
-    href: "#project-component"
+    href: "/#project-component",
 };
 
 const aboutTech ={
     text: "about",
-    href: "#about"
+    href: "/#about"
 };
 
 export const techNavList = [
@@ -22,17 +22,17 @@ export const techNavList = [
 
 const planningHome ={
     text: "Home",
-    href: "#default-landing-block"
+    href: "/#default-landing-block"
 };
 
 const whyPlanning ={
     text: "Why",
-    href: "#why-plan"
+    href: "/#why-plan"
 };
 
 const Me ={
     text: "About",
-    href: "#about"
+    href: "/#about"
 };
 export const planNavList = [
     planningHome,

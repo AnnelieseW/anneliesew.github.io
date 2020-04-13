@@ -6,6 +6,7 @@ import Navigation from "./Components/Navigation/Navigation";
 import ThemeContext from "./ThemeContext";
 import Landing from "./Tech/Landing/LandingPage";
 import MainPlanning from "./Planning/MainPlanning";
+import {planNavList, techNavList} from "./Components/Navigation/NavigationList";
 
 
 class Main extends Component {
@@ -39,7 +40,7 @@ class Main extends Component {
             return (
                 <div id="main">
                     <ThemeContext.Provider value={this.state}>
-                    <Navigation theme={this.state.theme}/>
+                    <Navigation list={this.state.theme === "tech"? techNavList: planNavList}/>
                     <div id="landing" className={this.state.theme ==='tech'? 'landing-tech sticky': ''}>
                         {landing}
                         <Toggle/>
