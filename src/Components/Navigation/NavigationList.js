@@ -2,16 +2,19 @@ import React from "react";
 
 const landing = {
     text: "landing",
-    href:"/#landing"
+    href:"#landing",
+    hash:'landing'
 };
 const projectTech = {
     text: "projects",
-    href: "/#project-component",
+    href: "#project-component",
+    hash:'project-component'
 };
 
 const aboutTech ={
     text: "about",
-    href: "/#about"
+    href: "#about",
+    hash:'about'
 };
 
 export const techNavList = [
@@ -35,7 +38,5 @@ const Me ={
     href: "/#about"
 };
 export const planNavList = [
-    planningHome,
-    whyPlanning,
-    Me
+    landing
 ];
