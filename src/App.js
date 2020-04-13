@@ -3,7 +3,7 @@ import React, {Component, useState} from 'react';
 import {
     Route,
     NavLink,
-    HashRouter, BrowserRouter as Router
+    HashRouter, BrowserRouter as Router, Switch
 } from "react-router-dom";
 
 
@@ -15,7 +15,6 @@ import ThemeContext from "./ThemeContext";
 
 import WebsiteDescription from "./Tech/TechProjectPages/Website/WebsiteDescription";
 class App extends Component {
-
     render() {
         return (
 
@@ -23,10 +22,10 @@ class App extends Component {
                    {/*<Navigation className="nav"/>*/}
                     {/*<Router>*/}
                     <div>
-                        <Router>
+                        <Router basename={process.env.PUBLIC_URL}>
                             <Route exact path={"/"} component = {Main}/>
-                             <Route  path={process.env.PUBLIC_URL + "/pomodoro-project"} component = {PomodoroProject}/>
-                             <Route  path={process.env.PUBLIC_URL +"/website-personal"} component = {WebsiteDescription}/>
+                             <Route  path={"/pomodoro-project"} component = {PomodoroProject}/>
+                             <Route  path={"/website-personal"} component = {WebsiteDescription}/>
                         </Router>
                     </div>
                     {/*</Router>*/}
