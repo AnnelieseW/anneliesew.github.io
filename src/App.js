@@ -6,6 +6,7 @@ import {
     HashRouter, BrowserRouter as Router
 } from "react-router-dom";
 
+
 import Main from"./Main";
 import PomodoroProject from "./Tech/TechProjectPages/PomodoroProject/Pomodoro";
 import './App.css';
@@ -24,8 +25,8 @@ class App extends Component {
                     <div>
                         <Router>
                             <Route exact path={"/"} component = {Main}/>
-                             <Route  path={"/pomodoro-project"} component = {PomodoroProject}/>
-                             <Route  path={"/website-personal"} component = {WebsiteDescription}/>
+                             <Route  path={process.env.PUBLIC_URL + "/pomodoro-project"} component = {PomodoroProject}/>
+                             <Route  path={process.env.PUBLIC_URL +"/website-personal"} component = {WebsiteDescription}/>
                         </Router>
                     </div>
                     {/*</Router>*/}
