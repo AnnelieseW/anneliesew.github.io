@@ -9,11 +9,11 @@ const home ={
 
 const back = {
     text:'⬅️',
-    href:"#/pomodoro-project"
+    href:"/pomodoro-project"
 };
 const pomodoro = {
     text:'➡️',
-    href:"#/pomodoro-project"
+    href:"/pomodoro-project"
 };
 
 
