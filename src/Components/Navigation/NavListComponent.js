@@ -6,7 +6,7 @@ class NavListComponent extends React.Component {
     render() {
         return(
             <li>
-                <Link to={this.props.item.href} onClick={this.props.click}>{this.props.item.text}</Link>
+                <a href={this.props.item.href} onClick={this.props.click}>{this.props.item.text}</a>
             </li>
         )
     }

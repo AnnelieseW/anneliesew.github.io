@@ -22,11 +22,11 @@ class App extends Component {
                    {/*<Navigation className="nav"/>*/}
                     {/*<Router>*/}
                     <div>
-                        <HashRouter>
+                        <Router>
                             <Route exact path={"/"} component = {Main}/>
                              <Route  path={"/pomodoro-project"} component = {PomodoroProject}/>
                              <Route  path={"/website-personal"} component = {WebsiteDescription}/>
-                        </HashRouter>
+                        </Router>
                     </div>
                     {/*</Router>*/}
                 </div>
