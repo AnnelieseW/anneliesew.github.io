@@ -62,6 +62,11 @@ p {
 section {
   padding-top: 5rem;
 }
+
+.centering{
+  display: grid;
+  justify-items: center;
+}
 /* navigation */
 .nav {
   z-index: 300;

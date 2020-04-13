@@ -1,0 +1,11 @@
+ul {
+    list-style: none;
+}
+
+#projectNav {
+    position: fixed;
+    min-height: 100vh;
+    right: 0;
+    padding-right: 1rem;
+    padding-top: 40vh;
+}

@@ -1,23 +1,39 @@
-#project-heading {
+#project-page {
     display: grid;
-    justify-items: center;
     padding-top: 10vh;
-
+    max-width: 50rem;
+    margin: 0 10vw;
+    justify-self: center;
 }
-
-#project-heading span {
+#project-heading{
     display: flex;
     flex-wrap: wrap;
+}
+#project-heading {
+    display: inline-block;
     margin: 1rem 0;
 }
 
-#project-heading .project-description {
-    max-width: 768px;
-    margin:  0 10vw;
-}
 #project-heading p {
-    margin: 0.15rem 1rem;
+    margin: 0.5rem 0;
 }
-#project-heading h1 {
+
+#project-page h1 {
     color: black;
+}
+
+#project-heading {
+    display: flex;
+    align-items: center;
+}
+.project-description {
+    display: inline-block;
+    max-width: 500px;
+
+}
+
+.project-about {
+    display: inline-block;
+    margin-right: 3rem;
+    max-width: 12rem;
 }
