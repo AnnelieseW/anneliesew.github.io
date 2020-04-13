@@ -18,25 +18,25 @@ const aboutTech ={
 };
 
 export const techNavList = [
-    landing,
     projectTech,
     aboutTech
 ];
 
 const planningHome ={
     text: "Home",
-    href: "/#default-landing-block"
+    href: "#default-landing-block"
 };
 
 const whyPlanning ={
     text: "Why",
-    href: "/#why-plan"
+    href: "#why-plan"
 };
 
 const Me ={
     text: "About",
-    href: "/#about"
+    href: "#about"
 };
 export const planNavList = [
-    landing
+    whyPlanning,
+    Me
 ];

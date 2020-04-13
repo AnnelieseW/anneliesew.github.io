@@ -3,8 +3,8 @@ import './toolbar.css'
 
 import Toggle from "../Toggle/Toggle";
 import DrawerToggleButton from "./SideDrawer/DrawerToggleButton";
-import {techNavList} from "./NavigationList";
-import NavListComponent from "./NavListComponent";
+import {techNavList} from "./NavListInd/NavigationList";
+import NavListComponent from "./NavListInd/NavListComponent";
 
 class Toolbar extends React.Component {
     constructor(props){
@@ -34,7 +34,7 @@ class Toolbar extends React.Component {
                     <div className="toolbar-nav-items">
                         <ul>
                             {this.props.navlist.map(item => {
-                                return <NavListComponent item={item}/>
+                                return <NavListComponent linking={this.props.linking} item={item}/>
                             })}
                         </ul>
                     </div>

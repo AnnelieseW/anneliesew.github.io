@@ -22,7 +22,7 @@ class WebsiteDescription extends React.Component{
     render() {
         return(
             <div id={"personalWebsite"}>
-                <Navigation list={[home, back, pomodoro]}/>
+                <Navigation linking={true} list={[home, back, pomodoro]}/>
             <ProjectHeading/>
             </div>
         )

@@ -6,7 +6,7 @@ import Navigation from "./Components/Navigation/Navigation";
 import ThemeContext from "./ThemeContext";
 import Landing from "./Tech/Landing/LandingPage";
 import MainPlanning from "./Planning/MainPlanning";
-import {planNavList, techNavList} from "./Components/Navigation/NavigationList";
+import {planNavList, techNavList} from "./Components/Navigation/NavListInd/NavigationList";
 
 
 class Main extends Component {
