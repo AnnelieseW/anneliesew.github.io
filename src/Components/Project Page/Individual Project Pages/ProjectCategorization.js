@@ -14,8 +14,12 @@ class ProjectCategorization extends React.Component{
     </p>
 
                 <p>
-                    <b>timeline - </b>
-                    {this.props.category.timeline}
+                <b>timeline - </b>
+                {this.props.category.timeline}
+            </p>
+                <p>
+                    <b>status - </b>
+                    {this.props.category.status}
                 </p>
             </div>
         )

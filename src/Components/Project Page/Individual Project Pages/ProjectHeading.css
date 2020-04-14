@@ -1,13 +1,14 @@
 #project-page {
     display: grid;
-    padding-top: 10vh;
     max-width: 50rem;
-    margin: 0 10vw;
+    margin: 10vh 5vw 0 5vw;
     justify-self: center;
 }
 #project-heading{
     display: flex;
     flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.10);
+    padding: 2rem;
 }
 #project-heading {
     display: inline-block;
@@ -24,7 +25,7 @@
 
 #project-heading {
     display: flex;
-    align-items: center;
+    align-items: start;
 }
 .project-description {
     display: inline-block;
@@ -44,7 +45,6 @@
     }
 
     .project-description {
-        max-width: 500px;
-
+        max-width: 30rem;
     }
 }

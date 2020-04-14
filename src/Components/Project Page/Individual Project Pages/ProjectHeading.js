@@ -8,20 +8,23 @@ class ProjectHeading extends React.Component {
         return(
             <div className="centering">
             <div id="project-page">
-                <h1>Personal Website</h1>
+                <h1>{this.props.categories.title}</h1>
                 <div id="project-heading">
                     <div className="project-about">
 
                                 <ProjectCategorization category={this.props.categories}/>
+                        <span>links coming soon</span>
                     </div>
 
+
                 <div className="project-description">
-                    {this.props.description.description}
-                </div>
+                    {this.props.categories.description}
                     <p>
                         <b>learnings - </b>
                         {this.props.categories.learning}
                     </p>
+                </div>
+
                 </div>
             </div>
             </div>
