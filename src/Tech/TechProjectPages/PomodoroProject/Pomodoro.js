@@ -1,9 +1,8 @@
 import React from 'react';
-import {personalWebsite, pomodoro} from "../ProjectList";
+import { pomodoro} from "../ProjectList";
 import ProjectHeading from "../../../Components/Project Page/Individual Project Pages/ProjectHeading";
 import ProjectNavigation from "../../../Components/Project Page/Individual Project Pages/ProjectNavigation";
 
-// import CoverPhoto from '../../Assets/PomodoroCoverPhoto.jpg';
 
 const home ={
     text:'🏠',

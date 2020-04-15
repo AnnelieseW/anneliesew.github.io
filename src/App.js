@@ -10,8 +10,6 @@ import {
 import Main from"./Main";
 import PomodoroProject from "./Tech/TechProjectPages/PomodoroProject/Pomodoro";
 import './App.css';
-import Projects from "./Components/Project Page/Projects";
-import ThemeContext from "./ThemeContext";
 
 import WebsiteDescription from "./Tech/TechProjectPages/Website/WebsiteDescription";
 class App extends Component {

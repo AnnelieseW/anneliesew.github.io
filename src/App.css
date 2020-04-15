@@ -67,6 +67,8 @@ section {
   display: grid;
   justify-items: center;
 }
+
+
 /* navigation */
 .nav {
   z-index: 300;

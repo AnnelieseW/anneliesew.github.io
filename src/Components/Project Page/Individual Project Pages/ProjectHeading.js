@@ -2,6 +2,7 @@ import React from "react";
 import './ProjectHeading.css'
 import Navigation from "../../Navigation/Navigation";
 import ProjectCategorization from "./ProjectCategorization";
+import ProjectLinks from "./ProjectLinks";
 
 class ProjectHeading extends React.Component {
     render() {
@@ -13,7 +14,9 @@ class ProjectHeading extends React.Component {
                     <div className="project-about">
 
                                 <ProjectCategorization category={this.props.categories}/>
-                        <span>links coming soon</span>
+                        {this.props.categories.hasOwnProperty('links') ?
+                                <ProjectLinks links={this.props.categories.links}/>:''}
+
                     </div>
 
 
