@@ -22,9 +22,10 @@ function About(props) {
                                 I'm a 3rd year student pursuing a double major in Math and Urban Planning,
                                 with a computation minor at the University of Waterloo.
                                 <div className="br"/>
-                                I'm currently working on the National AgriClimate Information Service at
+                                I'm currently working on the National Agro-Climate Information Service Team at
                                 AgriCulture and AgriFood Canada developing tools for soil moisture data analysis.
-                                Previously I was at Alert Labs, an IOT startup, developing internal tools for the sales team.
+                                Previously I was at <a href={"https://alertlabs.com"}> Alert Labs</a>,
+                                an IoT startup, developing internal tools for the sales team.
                                 <div className="br"/>
                                 You can find me running around leading <a href={"https://energyhacks.ca"}>EnergyHacks</a>,
                                 building communities and opening doors at <a href="https://www.starterhacks.ca">Starterhacks</a>,
