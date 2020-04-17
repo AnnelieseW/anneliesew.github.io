@@ -22,7 +22,7 @@ class PlanningDescription extends React.Component {
 
                     <h3>More About Me</h3>
                     <p>
-                        I'm currently working on the National AgriClimate Information Service team at Agriculture and AgriFood Canada as a Geomatics Technician, developing software tools for soil moisture data analysis.
+                        I'm currently working on the National Agro-Climate Information Service team at Agriculture and AgriFood Canada as a Geomatics Technician, developing software tools for soil moisture data analysis.
                         Previously I was at Alert Labs, an Internet of Things Startup, developing internal tools for the Sales team.
                         <br/>
                         Outside of work and school, I'm leading the second iteration of EnergyHacks, an energy first hackathon, and building communities and opening doors to tech at StarterHacks as Mentor Coordinator.
