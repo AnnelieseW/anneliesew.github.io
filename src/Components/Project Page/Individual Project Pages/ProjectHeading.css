@@ -1,7 +1,7 @@
 #project-page {
     display: grid;
     max-width: 50rem;
-    margin: 10vh 5vw 0 5vw;
+    margin: 5vh 5vw 0 5vw;
     justify-self: center;
 }
 #project-heading{
@@ -21,6 +21,7 @@
 
 #project-page h1 {
     color: black;
+    text-align: center;
 }
 
 #project-heading {

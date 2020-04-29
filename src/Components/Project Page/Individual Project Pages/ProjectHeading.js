@@ -7,7 +7,6 @@ import ProjectLinks from "./ProjectLinks";
 class ProjectHeading extends React.Component {
     render() {
         return(
-            <div className="centering">
             <div id="project-page">
                 <h1>{this.props.categories.title}</h1>
                 <div id="project-heading">
@@ -23,13 +22,12 @@ class ProjectHeading extends React.Component {
                 <div className="project-description">
                     {this.props.categories.description}
                     <p>
-                        <b>learnings - </b>
+                        <b>learnings: </b>
                         {this.props.categories.learning}
                     </p>
                 </div>
 
                 </div>
-            </div>
             </div>
         )
     }
