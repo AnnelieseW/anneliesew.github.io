@@ -25,7 +25,7 @@
 }
 
 .project-link:hover {
-    filter:  none;
+    filter:  grayscale(100%);
     transition: 250ms filter;
     text-decoration: none;
     font-style: italic;
@@ -38,9 +38,5 @@
 @media (min-width: 768px) {
     .project-link{
         flex-wrap: nowrap;
-    }
-
-    .project-link {
-        filter: grayscale(100%);
     }
 }
