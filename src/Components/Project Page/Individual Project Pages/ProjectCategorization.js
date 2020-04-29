@@ -5,20 +5,20 @@ class ProjectCategorization extends React.Component{
         return(
             <div>
             <p>
-                <b>type - </b>
+                <b>type: </b>
                 {this.props.category.type}
             </p>
             <p>
-            <b>tools - </b>
+            <b>tools: </b>
     {this.props.category.tools}
     </p>
 
                 <p>
-                <b>timeline - </b>
+                <b>timeline: </b>
                 {this.props.category.timeline}
             </p>
                 <p>
-                    <b>status - </b>
+                    <b>status: </b>
                     {this.props.category.status}
                 </p>
             </div>
