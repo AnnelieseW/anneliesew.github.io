@@ -1,0 +1,29 @@
+
+#project-page {
+    display: grid;
+    margin: 0 5vw 0 5vw;
+    justify-self: center;
+    width: 60rem;
+    max-width: 90vw;
+}
+
+#project-page h1, .project-body h1{
+    color: black;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.project-body{
+    margin: 0 5vw 0 5vw;
+    max-width: 90vw;
+    width: 60rem;
+}
+
+.textWrapRight{
+    float: right;
+    margin-left: 1rem;
+}
+
+.project-body-chunk{
+    margin-top: 3rem;
+}

@@ -1,7 +1,5 @@
 import React from 'react';
 import './SideDrawer.css';
-import Resume from "../../../Assets/Resume-Anneliese.pdf";
-import {techNavList} from "../NavListInd/NavigationList";
 import NavListComponent from "../NavListInd/NavListComponent";
 
 const SideDrawer= props =>(
