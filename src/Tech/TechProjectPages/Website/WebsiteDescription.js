@@ -73,8 +73,8 @@ class WebsiteDescription extends React.Component{
                             This made it much easier to control what the user sees depending on the state of the toggle button.
                         </p>
                         <div style={{display: "flex", flexWrap:'wrap',justifyContent: 'space-evenly', marginTop:'2rem'}}>
-                            <img style={{maxWidth: '80vw', width: '30rem', height: 'auto'}} src={techLanding}/>
-                            <img style={{maxWidth: '80vw', width: '30rem', height: 'auto'}} src={planLanding}/>
+                            <img style={{maxWidth: '80vw', width: '50%', height: '50%'}} src={techLanding}/>
+                            <img style={{maxWidth: '80vw', width: '50%', height: '50%'}} src={planLanding}/>
                         </div>
                     </div>
                     <div className="project-body-chunk">
