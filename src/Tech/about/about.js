@@ -2,7 +2,6 @@ import React from "react";
 import Me from "../../Assets/Me.png";
 import "./About.css"
 import "../../App.css"
-import Resume from "../../Assets/Resume-Anneliese.pdf";
 import Contact from "../../Components/contact/Contact";
 function About(props) {
     return (

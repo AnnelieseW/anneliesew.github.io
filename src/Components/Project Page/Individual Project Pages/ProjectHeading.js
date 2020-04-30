@@ -10,6 +10,7 @@ class ProjectHeading extends React.Component {
             <div id="project-page">
                 <h1>{this.props.categories.title}</h1>
                 <div id="project-heading">
+                    <div style={{display:'flex', flexWrap: 'wrap'}}>
                     <div className="project-about">
 
                                 <ProjectCategorization category={this.props.categories}/>
@@ -20,12 +21,13 @@ class ProjectHeading extends React.Component {
 
 
                 <div className="project-description">
-                    {this.props.categories.description}
+                    <p>{this.props.categories.description}</p>
                     <p>
                         <b>learnings: </b>
                         {this.props.categories.learning}
                     </p>
                 </div>
+                    </div>
 
                 </div>
             </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import "./LandingPage.css";
-import Resume from '../../Assets/Resume-Anneliese.pdf';
 import "../../App.css"
 import Contact from "../../Components/contact/Contact";
 import Welcome from "./FunFont";
