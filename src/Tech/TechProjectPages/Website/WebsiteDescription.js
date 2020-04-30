@@ -80,8 +80,7 @@ class WebsiteDescription extends React.Component{
                     <div className="project-body-chunk">
                         <h4>project page formats</h4>
                         <p>
-                            Admittedly, I have never finished a project page prior to this.I had a quick the stand-in
-                            page that I whipped up which was so embarrassing, I'll save you from seeing it.
+                            Admittedly, I have never finished a project page prior to this.
                             During the most recent large update, I  decided to standardized the project pages and create reusable
                             components for them. I created navigation components specific to the project pages as well as created a "quick facts"
                             section that I also created into a component for easy implementation. Moving forward,
@@ -93,13 +92,13 @@ class WebsiteDescription extends React.Component{
                         <h4>new aesthetics</h4>
                         <p>
                             Now that I would be also directing people in planning to the site,
-                            I felt like I needed a new look. Previously my website was made to look like sky at dusk.
-                            I wanted to convey a theme of imagination. In the execution this made my website look a little
+                            I wanted to convey a theme of imagination with my old look.
+                            In the execution, this made my website look a little
                             too childish for the image I wanted to convey to potential employers in the planning field.
                         </p>
                         <img style={{ width: '100%'}} src={cloudTheme}/>
                         <p>
-                            I eliminated the decorations, and choose to stick with a more minimal style,
+                            I eliminated the decorations and choose to stick with a more minimal style,
                             though the layout remains the same. I think that the two websites can be more cohesive but I
                             like the current distinction between the two sites.
                         </p>
